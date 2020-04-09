@@ -1,0 +1,1474 @@
+** Alert 1585094963.0: - syslog,sshd,recon,pci_dss_11.4,gpg13_4.12,gdpr_IV_35.7.d,nist_800_53_SI.4,
+2020 Mar 25 00:09:23 haran-ids-lab->/var/log/secure
+Rule: 5706 (level 6) -> 'sshd: insecure connection attempt (scan).'
+Src IP: 34.222.150.24
+Src Port: 61000
+Mar 25 00:09:22 haran-ids-lab sshd[12669]: Did not receive identification string from 34.222.150.24 port 61000
+
+** Alert 1585095385.370: - syslog,sshd,pci_dss_11.4,gpg13_4.12,gdpr_IV_35.7.d,nist_800_53_SI.4,
+2020 Mar 25 00:16:25 haran-ids-lab->/var/log/secure
+Rule: 5702 (level 5) -> 'sshd: Reverse lookup error (bad ISP or attack).'
+Src IP: 124.77.119.40
+Mar 25 00:16:23 haran-ids-lab sshd[14643]: reverse mapping checking getaddrinfo for 40.119.77.124.broad.xw.sh.dynamic.163data.com.cn [124.77.119.40] failed - POSSIBLE BREAK-IN ATTEMPT!
+
+** Alert 1585095385.800: - syslog,sshd,invalid_login,authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,pci_dss_10.6.1,gpg13_7.1,gdpr_IV_35.7.d,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AU.6,
+2020 Mar 25 00:16:25 haran-ids-lab->/var/log/secure
+Rule: 5710 (level 5) -> 'sshd: Attempt to login using a non-existent user'
+Src IP: 124.77.119.40
+Src Port: 57020
+Mar 25 00:16:23 haran-ids-lab sshd[14643]: Invalid user test from 124.77.119.40 port 57020
+
+** Alert 1585095481.1284: - syslog,sshd,invalid_login,authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,pci_dss_10.6.1,gpg13_7.1,gdpr_IV_35.7.d,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AU.6,
+2020 Mar 25 00:18:01 haran-ids-lab->/var/log/secure
+Rule: 5710 (level 5) -> 'sshd: Attempt to login using a non-existent user'
+Src IP: 140.143.56.61
+Src Port: 53242
+Mar 25 00:18:01 haran-ids-lab sshd[15036]: Invalid user takazawa from 140.143.56.61 port 53242
+
+** Alert 1585095569.1773: - syslog,sshd,pci_dss_11.4,gpg13_4.12,gdpr_IV_35.7.d,nist_800_53_SI.4,
+2020 Mar 25 00:19:29 haran-ids-lab->/var/log/secure
+Rule: 5702 (level 5) -> 'sshd: Reverse lookup error (bad ISP or attack).'
+Src IP: 124.77.119.40
+Mar 25 00:19:28 haran-ids-lab sshd[15388]: reverse mapping checking getaddrinfo for 40.119.77.124.broad.xw.sh.dynamic.163data.com.cn [124.77.119.40] failed - POSSIBLE BREAK-IN ATTEMPT!
+
+** Alert 1585095569.2204: - syslog,sshd,invalid_login,authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,pci_dss_10.6.1,gpg13_7.1,gdpr_IV_35.7.d,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AU.6,
+2020 Mar 25 00:19:29 haran-ids-lab->/var/log/secure
+Rule: 5710 (level 5) -> 'sshd: Attempt to login using a non-existent user'
+Src IP: 124.77.119.40
+Src Port: 42826
+Mar 25 00:19:28 haran-ids-lab sshd[15388]: Invalid user user from 124.77.119.40 port 42826
+
+** Alert 1585095735.2689: - syslog,sshd,invalid_login,authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,pci_dss_10.6.1,gpg13_7.1,gdpr_IV_35.7.d,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AU.6,
+2020 Mar 25 00:22:15 haran-ids-lab->/var/log/secure
+Rule: 5710 (level 5) -> 'sshd: Attempt to login using a non-existent user'
+Src IP: 185.38.3.138
+Src Port: 34578
+Mar 25 00:22:15 haran-ids-lab sshd[16178]: Invalid user henrietta from 185.38.3.138 port 34578
+
+** Alert 1585096070.3177: - syslog,sshd,pci_dss_11.4,gpg13_4.12,gdpr_IV_35.7.d,nist_800_53_SI.4,
+2020 Mar 25 00:27:50 haran-ids-lab->/var/log/secure
+Rule: 5702 (level 5) -> 'sshd: Reverse lookup error (bad ISP or attack).'
+Src IP: 106.37.223.54
+Mar 25 00:27:49 haran-ids-lab sshd[17650]: reverse mapping checking getaddrinfo for 54.223.37.106.static.bjtelecom.net [106.37.223.54] failed - POSSIBLE BREAK-IN ATTEMPT!
+
+** Alert 1585096070.3594: - syslog,sshd,invalid_login,authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,pci_dss_10.6.1,gpg13_7.1,gdpr_IV_35.7.d,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AU.6,
+2020 Mar 25 00:27:50 haran-ids-lab->/var/log/secure
+Rule: 5710 (level 5) -> 'sshd: Attempt to login using a non-existent user'
+Src IP: 106.37.223.54
+Src Port: 59673
+Mar 25 00:27:49 haran-ids-lab sshd[17650]: Invalid user zouliangfeng from 106.37.223.54 port 59673
+
+** Alert 1585096270.4087: - syslog,sshd,invalid_login,authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,pci_dss_10.6.1,gpg13_7.1,gdpr_IV_35.7.d,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AU.6,
+2020 Mar 25 00:31:10 haran-ids-lab->/var/log/secure
+Rule: 5710 (level 5) -> 'sshd: Attempt to login using a non-existent user'
+Src IP: 45.80.253.48
+Src Port: 39010
+Mar 25 00:31:09 haran-ids-lab sshd[18573]: Invalid user staudacher from 45.80.253.48 port 39010
+
+** Alert 1585096843.4576: - ossec,syscheck,pci_dss_11.5,gpg13_4.11,gdpr_II_5.1.f,hipaa_164.312.c.1,hipaa_164.312.c.2,nist_800_53_SI.7,
+2020 Mar 25 00:40:43 haran-ids-lab->syscheck
+Rule: 550 (level 7) -> 'Integrity checksum changed.'
+File '/etc/subuid-' checksum changed.
+Size changed from '3861' to '3939'
+Old md5sum was: 'f7e7108b2e0b089aee6c000bd7dedd33'
+New md5sum is : '679299cd1b437c4327abbae41128e535'
+Old sha1sum was: '17c38f78e11189872399888c64048fa661e88fc7'
+New sha1sum is : '6643059cb6562ff2270fd6bdbe6941df56315f12'
+Old sha256sum was: '673b3a393df3ec4d92498c7df7276d7c314fa79bb380a8595901b70148fc1198'
+New sha256sum is : '0da2e12071580becf99722fe48f6a74d64a4b65350ac83188f246235c4dc0a41'
+Old modification time was: 'Wed Mar 18 16:55:10 2020', now it is 'Tue Mar 24 15:08:24 2020'
+
+Attributes:
+ - Size: 3939
+ - Date: Tue Mar 24 15:08:24 2020
+ - Inode: 50617
+ - User: root (0)
+ - Group: root (0)
+ - MD5: 679299cd1b437c4327abbae41128e535
+ - SHA1: 6643059cb6562ff2270fd6bdbe6941df56315f12
+ - SHA256: 0da2e12071580becf99722fe48f6a74d64a4b65350ac83188f246235c4dc0a41
+ - Permissions: 100644
+
+** Alert 1585096843.5673: - ossec,syscheck,pci_dss_11.5,gpg13_4.11,gdpr_II_5.1.f,hipaa_164.312.c.1,hipaa_164.312.c.2,nist_800_53_SI.7,
+2020 Mar 25 00:40:43 haran-ids-lab->syscheck
+Rule: 550 (level 7) -> 'Integrity checksum changed.'
+File '/etc/gshadow-' checksum changed.
+Size changed from '14276' to '14420'
+Old md5sum was: '4423b9c0ec706fd2875cca6a853f7dba'
+New md5sum is : 'd1e25b1394fa2b3591e572bdb4bb8e52'
+Old sha1sum was: '83a646cdf1a82fbb2ead352635e7fa681e3e950a'
+New sha1sum is : '11d9d991f33feab6667a0ba0a4b00b2ba7596030'
+Old sha256sum was: '720d7b051b73be61a5a83e212187bfa0beb3ffc160c9c0105768ef69dc7ce745'
+New sha256sum is : '8ca1244322048f771ce6b7dbd85a55b6f9ca2d636a698d77cc6d8d412c0c8e15'
+Old modification time was: 'Tue Mar 24 09:47:11 2020', now it is 'Tue Mar 24 15:17:02 2020'
+
+Attributes:
+ - Size: 14420
+ - Date: Tue Mar 24 15:17:02 2020
+ - Inode: 51994
+ - User: root (0)
+ - Group: root (0)
+ - MD5: d1e25b1394fa2b3591e572bdb4bb8e52
+ - SHA1: 11d9d991f33feab6667a0ba0a4b00b2ba7596030
+ - SHA256: 8ca1244322048f771ce6b7dbd85a55b6f9ca2d636a698d77cc6d8d412c0c8e15
+ - Permissions: 100000
+
+** Alert 1585096843.6774: - ossec,syscheck,pci_dss_11.5,gpg13_4.11,gdpr_II_5.1.f,hipaa_164.312.c.1,hipaa_164.312.c.2,nist_800_53_SI.7,
+2020 Mar 25 00:40:43 haran-ids-lab->syscheck
+Rule: 550 (level 7) -> 'Integrity checksum changed.'
+File '/etc/group-' checksum changed.
+Size changed from '15212' to '15364'
+Old md5sum was: '7f93d6246a4c4758c677d0466c3f4482'
+New md5sum is : '1d9f62e14884a31f7e12841d078912e6'
+Old sha1sum was: '3d2ebafad4d1037efaa05acd004642bc87c6b39e'
+New sha1sum is : '10b7141c77fb752ea3ab58a3995ddcbb4a7e7ee4'
+Old sha256sum was: 'c250067b666973cf4f32fed355abd02ec1a62d6c0e015d34c676bb66e05c6198'
+New sha256sum is : 'e87557b354bf362084c00168abb167bbc1efc39d30924766f9cc032cc0101eb1'
+Old modification time was: 'Tue Mar 24 09:47:11 2020', now it is 'Tue Mar 24 15:17:02 2020'
+
+Attributes:
+ - Size: 15364
+ - Date: Tue Mar 24 15:17:02 2020
+ - Inode: 51996
+ - User: root (0)
+ - Group: root (0)
+ - MD5: 1d9f62e14884a31f7e12841d078912e6
+ - SHA1: 10b7141c77fb752ea3ab58a3995ddcbb4a7e7ee4
+ - SHA256: e87557b354bf362084c00168abb167bbc1efc39d30924766f9cc032cc0101eb1
+ - Permissions: 100644
+
+** Alert 1585096844.7873: - ossec,syscheck,pci_dss_11.5,gpg13_4.11,gdpr_II_5.1.f,hipaa_164.312.c.1,hipaa_164.312.c.2,nist_800_53_SI.7,
+2020 Mar 25 00:40:44 haran-ids-lab->syscheck
+Rule: 550 (level 7) -> 'Integrity checksum changed.'
+File '/etc/passwd-' checksum changed.
+Size changed from '14866' to '15024'
+Old md5sum was: 'c5aff4443afdc31e8178edf95e0864c6'
+New md5sum is : 'a639d2f83854cc3a604f38b77ab876de'
+Old sha1sum was: 'a53dccf7e31bbc7e6f09c611373baa51ca5e9400'
+New sha1sum is : 'c7a020b6b70b3c3a36a93a7a305c9b9d63212a18'
+Old sha256sum was: '240ff24d5c8fb73aa550e7020eeb304388cf3f8a9995a4500d293b4dc340d653'
+New sha256sum is : 'af868b93df03fbee18d928e9b1a2c1e6ba100a6167ae689814b26a4f65fc8273'
+Old modification time was: 'Mon Mar 23 12:36:23 2020', now it is 'Tue Mar 24 15:08:24 2020'
+
+Attributes:
+ - Size: 15024
+ - Date: Tue Mar 24 15:08:24 2020
+ - Inode: 59433
+ - User: root (0)
+ - Group: root (0)
+ - MD5: a639d2f83854cc3a604f38b77ab876de
+ - SHA1: c7a020b6b70b3c3a36a93a7a305c9b9d63212a18
+ - SHA256: af868b93df03fbee18d928e9b1a2c1e6ba100a6167ae689814b26a4f65fc8273
+ - Permissions: 100644
+
+** Alert 1585096844.8973: - ossec,syscheck,pci_dss_11.5,gpg13_4.11,gdpr_II_5.1.f,hipaa_164.312.c.1,hipaa_164.312.c.2,nist_800_53_SI.7,
+2020 Mar 25 00:40:44 haran-ids-lab->syscheck
+Rule: 550 (level 7) -> 'Integrity checksum changed.'
+File '/etc/group' checksum changed.
+Size changed from '15198' to '15339'
+Old md5sum was: '5dc9a356f5d6125c682fb0d3f108222a'
+New md5sum is : '7efdb70c1121bcff66e8a1c5c83c33ee'
+Old sha1sum was: 'fc2f8595c6a6312ed0bbbcf049bd85eadf4b9538'
+New sha1sum is : '57d258b06292b3a09172a596c64f6eb588813860'
+Old sha256sum was: '5cd071efe018d97e8adbe70815673d452066cdfbe4c606f68d733d716cd36216'
+New sha256sum is : 'b11737b70ba3cc09508b9d853bad10ec8a7683f7587640e2bc1375799ef4067e'
+Old modification time was: 'Tue Mar 24 09:50:21 2020', now it is 'Tue Mar 24 21:28:43 2020'
+
+Attributes:
+ - Size: 15339
+ - Date: Tue Mar 24 21:28:43 2020
+ - Inode: 307165
+ - User: root (0)
+ - Group: root (0)
+ - MD5: 7efdb70c1121bcff66e8a1c5c83c33ee
+ - SHA1: 57d258b06292b3a09172a596c64f6eb588813860
+ - SHA256: b11737b70ba3cc09508b9d853bad10ec8a7683f7587640e2bc1375799ef4067e
+ - Permissions: 100644
+
+** Alert 1585096844.10072: - ossec,syscheck,pci_dss_11.5,gpg13_4.11,gdpr_II_5.1.f,hipaa_164.312.c.1,hipaa_164.312.c.2,nist_800_53_SI.7,
+2020 Mar 25 00:40:44 haran-ids-lab->syscheck
+Rule: 550 (level 7) -> 'Integrity checksum changed.'
+File '/etc/shadow-' checksum changed.
+Size changed from '9077' to '9169'
+Old md5sum was: '81bfb628e7a5a1bbf831f9fd9090fb87'
+New md5sum is : '0d9552f52f73ab98755989ff547c2b25'
+Old sha1sum was: 'c9d0de9cdf1cdddb417e2ee1e4782fd2b23e646b'
+New sha1sum is : '64166ca70d8fb63934e2216df6f930bcd0416fd8'
+Old sha256sum was: '715b23bfaf6c23828296fcc14c0557e51aafc11c3a65ff1394b17098f42f2bbc'
+New sha256sum is : '34f992196615614201a3146f2073265b45320c9f6b307527e42eebd68356bcd4'
+Old modification time was: 'Mon Mar 23 12:36:23 2020', now it is 'Tue Mar 24 15:08:24 2020'
+
+Attributes:
+ - Size: 9169
+ - Date: Tue Mar 24 15:08:24 2020
+ - Inode: 59435
+ - User: root (0)
+ - Group: root (0)
+ - MD5: 0d9552f52f73ab98755989ff547c2b25
+ - SHA1: 64166ca70d8fb63934e2216df6f930bcd0416fd8
+ - SHA256: 34f992196615614201a3146f2073265b45320c9f6b307527e42eebd68356bcd4
+ - Permissions: 100000
+
+** Alert 1585096844.11170: - ossec,syscheck,pci_dss_11.5,gpg13_4.11,gdpr_II_5.1.f,hipaa_164.312.c.1,hipaa_164.312.c.2,nist_800_53_SI.7,
+2020 Mar 25 00:40:44 haran-ids-lab->syscheck
+Rule: 550 (level 7) -> 'Integrity checksum changed.'
+File '/etc/gshadow' checksum changed.
+Size changed from '14262' to '14395'
+Old md5sum was: '1eb2dca6031f0ddf7812e6147c3713a0'
+New md5sum is : '818e17c9b0796889d4b314dbb0192ac3'
+Old sha1sum was: '3197263a999579828c5b4dbae8953d16e6560b88'
+New sha1sum is : '39e712498aec35a51b2724d8f81b62867942ac35'
+Old sha256sum was: 'bce863ce797e80c7ef63218029382f0710207501d1a8467ef5e55b94ad5a0c5c'
+New sha256sum is : 'd926ee775f3788e666234119619bbeda8ef176e53a4589ad0de53f3155d5b758'
+Old modification time was: 'Tue Mar 24 09:50:21 2020', now it is 'Tue Mar 24 21:28:43 2020'
+Old inode was: '307158', now it is '307155'
+
+Attributes:
+ - Size: 14395
+ - Date: Tue Mar 24 21:28:43 2020
+ - Inode: 307155
+ - User: root (0)
+ - Group: root (0)
+ - MD5: 818e17c9b0796889d4b314dbb0192ac3
+ - SHA1: 39e712498aec35a51b2724d8f81b62867942ac35
+ - SHA256: d926ee775f3788e666234119619bbeda8ef176e53a4589ad0de53f3155d5b758
+ - Permissions: 100000
+
+** Alert 1585096845.12316: - ossec,syscheck,pci_dss_11.5,gpg13_4.11,gdpr_II_5.1.f,hipaa_164.312.c.1,hipaa_164.312.c.2,nist_800_53_SI.7,
+2020 Mar 25 00:40:45 haran-ids-lab->syscheck
+Rule: 550 (level 7) -> 'Integrity checksum changed.'
+File '/etc/passwd' checksum changed.
+Size changed from '14945' to '15103'
+Old md5sum was: '4293d2b95d2f2caca98c45749c975273'
+New md5sum is : '8293299cc7d5ceef9b3470156e9a8af2'
+Old sha1sum was: 'd039da79b285e00e20392b38a1a83fd7d87218d9'
+New sha1sum is : 'ee75910b8f7ba35e27412cb84ae7b3e6eb5b2a86'
+Old sha256sum was: '1ddb5d76c25f6f946134181838d5516b316fcc169406b031eea8fe92bd31dc93'
+New sha256sum is : 'c313de27c0db048e341ea63a8991ae782afa1656643f1e7c78ac23fb8a345a4e'
+Old modification time was: 'Tue Mar 24 09:43:05 2020', now it is 'Tue Mar 24 15:16:35 2020'
+Old inode was: '370339', now it is '370930'
+
+Attributes:
+ - Size: 15103
+ - Date: Tue Mar 24 15:16:35 2020
+ - Inode: 370930
+ - User: root (0)
+ - Group: root (0)
+ - MD5: 8293299cc7d5ceef9b3470156e9a8af2
+ - SHA1: ee75910b8f7ba35e27412cb84ae7b3e6eb5b2a86
+ - SHA256: c313de27c0db048e341ea63a8991ae782afa1656643f1e7c78ac23fb8a345a4e
+ - Permissions: 100644
+
+** Alert 1585096845.13461: - ossec,syscheck,pci_dss_11.5,gpg13_4.11,gdpr_II_5.1.f,hipaa_164.312.c.1,hipaa_164.312.c.2,nist_800_53_SI.7,
+2020 Mar 25 00:40:45 haran-ids-lab->syscheck
+Rule: 550 (level 7) -> 'Integrity checksum changed.'
+File '/etc/shadow' checksum changed.
+Size changed from '9123' to '9215'
+Old md5sum was: '741a10c4faefcf2a562e1f86156c2d42'
+New md5sum is : '9b8349b2acdde6f73322b45a223e0f28'
+Old sha1sum was: 'c4a011f742c78ba0f3d0a05b370e78c899a4415d'
+New sha1sum is : '2ca377e5c31f668be41c7b033d43ad95980745d9'
+Old sha256sum was: 'a7d02682a83a369c5deb6393f825cca287d674fab77c99054e386ea1e5ebfff7'
+New sha256sum is : 'c1edcda898ea02a286f583503f96a72a0853247baa4fae355031e27c8c69345b'
+Old modification time was: 'Tue Mar 24 09:43:05 2020', now it is 'Tue Mar 24 15:16:35 2020'
+Old inode was: '370927', now it is '370936'
+
+Attributes:
+ - Size: 9215
+ - Date: Tue Mar 24 15:16:35 2020
+ - Inode: 370936
+ - User: root (0)
+ - Group: root (0)
+ - MD5: 9b8349b2acdde6f73322b45a223e0f28
+ - SHA1: 2ca377e5c31f668be41c7b033d43ad95980745d9
+ - SHA256: c1edcda898ea02a286f583503f96a72a0853247baa4fae355031e27c8c69345b
+ - Permissions: 100000
+
+** Alert 1585096845.14603: - ossec,syscheck,pci_dss_11.5,gpg13_4.11,gdpr_II_5.1.f,hipaa_164.312.c.1,hipaa_164.312.c.2,nist_800_53_SI.7,
+2020 Mar 25 00:40:45 haran-ids-lab->syscheck
+Rule: 550 (level 7) -> 'Integrity checksum changed.'
+File '/etc/subgid' checksum changed.
+Size changed from '3900' to '3978'
+Old md5sum was: '568dc32ce07c53d88dc28cd073052f79'
+New md5sum is : '55795b62c42a749d293d8407413704c2'
+Old sha1sum was: '531ce945b2d1c72a37c5051dc4555b1fad6d9157'
+New sha1sum is : 'e8bd6aab27a8c2dd568a3ecf8eff07474d12c554'
+Old sha256sum was: '3399e59d63886542cc1829c137e4c795a8c3b86598afa37bc2a542a8173afa92'
+New sha256sum is : 'c0da1c5c94c1c2afa4102c33fc2113bdf6054f258866310df33f0b5ac82da1c0'
+Old modification time was: 'Tue Mar 24 09:43:05 2020', now it is 'Tue Mar 24 15:16:35 2020'
+Old inode was: '370930', now it is '307140'
+
+Attributes:
+ - Size: 3978
+ - Date: Tue Mar 24 15:16:35 2020
+ - Inode: 307140
+ - User: root (0)
+ - Group: root (0)
+ - MD5: 55795b62c42a749d293d8407413704c2
+ - SHA1: e8bd6aab27a8c2dd568a3ecf8eff07474d12c554
+ - SHA256: c0da1c5c94c1c2afa4102c33fc2113bdf6054f258866310df33f0b5ac82da1c0
+ - Permissions: 100644
+
+** Alert 1585096845.15745: - ossec,syscheck,pci_dss_11.5,gpg13_4.11,gdpr_II_5.1.f,hipaa_164.312.c.1,hipaa_164.312.c.2,nist_800_53_SI.7,
+2020 Mar 25 00:40:45 haran-ids-lab->syscheck
+Rule: 550 (level 7) -> 'Integrity checksum changed.'
+File '/etc/subuid' checksum changed.
+Size changed from '3900' to '3978'
+Old md5sum was: '568dc32ce07c53d88dc28cd073052f79'
+New md5sum is : '55795b62c42a749d293d8407413704c2'
+Old sha1sum was: '531ce945b2d1c72a37c5051dc4555b1fad6d9157'
+New sha1sum is : 'e8bd6aab27a8c2dd568a3ecf8eff07474d12c554'
+Old sha256sum was: '3399e59d63886542cc1829c137e4c795a8c3b86598afa37bc2a542a8173afa92'
+New sha256sum is : 'c0da1c5c94c1c2afa4102c33fc2113bdf6054f258866310df33f0b5ac82da1c0'
+Old modification time was: 'Tue Mar 24 09:43:05 2020', now it is 'Tue Mar 24 15:16:35 2020'
+Old inode was: '307156', now it is '307157'
+
+Attributes:
+ - Size: 3978
+ - Date: Tue Mar 24 15:16:35 2020
+ - Inode: 307157
+ - User: root (0)
+ - Group: root (0)
+ - MD5: 55795b62c42a749d293d8407413704c2
+ - SHA1: e8bd6aab27a8c2dd568a3ecf8eff07474d12c554
+ - SHA256: c0da1c5c94c1c2afa4102c33fc2113bdf6054f258866310df33f0b5ac82da1c0
+ - Permissions: 100644
+
+** Alert 1585096864.16887: - ossec,syscheck,pci_dss_11.5,gpg13_4.11,gdpr_II_5.1.f,hipaa_164.312.c.1,hipaa_164.312.c.2,nist_800_53_SI.7,
+2020 Mar 25 00:41:04 haran-ids-lab->syscheck
+Rule: 550 (level 7) -> 'Integrity checksum changed.'
+File '/etc/subgid-' checksum changed.
+Size changed from '3861' to '3939'
+Old md5sum was: 'f7e7108b2e0b089aee6c000bd7dedd33'
+New md5sum is : '679299cd1b437c4327abbae41128e535'
+Old sha1sum was: '17c38f78e11189872399888c64048fa661e88fc7'
+New sha1sum is : '6643059cb6562ff2270fd6bdbe6941df56315f12'
+Old sha256sum was: '673b3a393df3ec4d92498c7df7276d7c314fa79bb380a8595901b70148fc1198'
+New sha256sum is : '0da2e12071580becf99722fe48f6a74d64a4b65350ac83188f246235c4dc0a41'
+Old modification time was: 'Wed Mar 18 16:55:10 2020', now it is 'Tue Mar 24 15:08:24 2020'
+
+Attributes:
+ - Size: 3939
+ - Date: Tue Mar 24 15:08:24 2020
+ - Inode: 50622
+ - User: root (0)
+ - Group: root (0)
+ - MD5: 679299cd1b437c4327abbae41128e535
+ - SHA1: 6643059cb6562ff2270fd6bdbe6941df56315f12
+ - SHA256: 0da2e12071580becf99722fe48f6a74d64a4b65350ac83188f246235c4dc0a41
+ - Permissions: 100644
+
+** Alert 1585096894.17985: - ossec,rootcheck,gdpr_IV_35.7.d,
+2020 Mar 25 00:41:34 haran-ids-lab->rootcheck
+Rule: 510 (level 7) -> 'Host-based anomaly detection event (rootcheck).'
+Interface 'eth0' in promiscuous mode.
+title: Interface 'eth0' in promiscuous mode.
+
+** Alert 1585097322.18249: - syslog,sshd,invalid_login,authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,pci_dss_10.6.1,gpg13_7.1,gdpr_IV_35.7.d,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AU.6,
+2020 Mar 25 00:48:42 haran-ids-lab->/var/log/secure
+Rule: 5710 (level 5) -> 'sshd: Attempt to login using a non-existent user'
+Src IP: 138.197.189.136
+Src Port: 46610
+Mar 25 00:48:41 haran-ids-lab sshd[24178]: Invalid user jsimon from 138.197.189.136 port 46610
+
+** Alert 1585097364.18741: - syslog,sshd,invalid_login,authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,pci_dss_10.6.1,gpg13_7.1,gdpr_IV_35.7.d,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AU.6,
+2020 Mar 25 00:49:24 haran-ids-lab->/var/log/secure
+Rule: 5710 (level 5) -> 'sshd: Attempt to login using a non-existent user'
+Src IP: 80.227.12.38
+Src Port: 58852
+Mar 25 00:49:24 haran-ids-lab sshd[24338]: Invalid user weblogic from 80.227.12.38 port 58852
+
+** Alert 1585097827.19229: - syslog,sshd,invalid_login,authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,pci_dss_10.6.1,gpg13_7.1,gdpr_IV_35.7.d,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AU.6,
+2020 Mar 25 00:57:07 haran-ids-lab->/var/log/secure
+Rule: 5710 (level 5) -> 'sshd: Attempt to login using a non-existent user'
+Src IP: 129.28.150.45
+Src Port: 40140
+Mar 25 00:57:05 haran-ids-lab sshd[26442]: Invalid user aura from 129.28.150.45 port 40140
+
+** Alert 1585098081.19715: - syslog,sshd,invalid_login,authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,pci_dss_10.6.1,gpg13_7.1,gdpr_IV_35.7.d,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AU.6,
+2020 Mar 25 01:01:21 haran-ids-lab->/var/log/secure
+Rule: 5710 (level 5) -> 'sshd: Attempt to login using a non-existent user'
+Src IP: 149.202.3.113
+Src Port: 50752
+Mar 25 01:01:20 haran-ids-lab sshd[28104]: Invalid user ubuntu from 149.202.3.113 port 50752
+
+** Alert 1585098831.20203: - syslog,sshd,pci_dss_11.4,gpg13_4.12,gdpr_IV_35.7.d,nist_800_53_SI.4,
+2020 Mar 25 01:13:51 haran-ids-lab->/var/log/secure
+Rule: 5702 (level 5) -> 'sshd: Reverse lookup error (bad ISP or attack).'
+Src IP: 206.189.34.34
+Mar 25 01:13:51 haran-ids-lab sshd[31395]: reverse mapping checking getaddrinfo for new.the101.world [206.189.34.34] failed - POSSIBLE BREAK-IN ATTEMPT!
+
+** Alert 1585098831.20603: - syslog,sshd,invalid_login,authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,pci_dss_10.6.1,gpg13_7.1,gdpr_IV_35.7.d,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AU.6,
+2020 Mar 25 01:13:51 haran-ids-lab->/var/log/secure
+Rule: 5710 (level 5) -> 'sshd: Attempt to login using a non-existent user'
+Src IP: 206.189.34.34
+Src Port: 40406
+Mar 25 01:13:51 haran-ids-lab sshd[31395]: Invalid user cacti from 206.189.34.34 port 40406
+
+** Alert 1585098945.21090: - syslog,sshd,pci_dss_11.4,gpg13_4.12,gdpr_IV_35.7.d,nist_800_53_SI.4,
+2020 Mar 25 01:15:45 haran-ids-lab->/var/log/secure
+Rule: 5702 (level 5) -> 'sshd: Reverse lookup error (bad ISP or attack).'
+Src IP: 206.189.34.34
+Mar 25 01:15:44 haran-ids-lab sshd[31966]: reverse mapping checking getaddrinfo for new.the101.world [206.189.34.34] failed - POSSIBLE BREAK-IN ATTEMPT!
+
+** Alert 1585100890.21490: - syslog,sshd,invalid_login,authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,pci_dss_10.6.1,gpg13_7.1,gdpr_IV_35.7.d,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AU.6,
+2020 Mar 25 01:48:10 haran-ids-lab->/var/log/secure
+Rule: 5710 (level 5) -> 'sshd: Attempt to login using a non-existent user'
+Src IP: 49.235.243.246
+Src Port: 39276
+Mar 25 01:48:09 haran-ids-lab sshd[8147]: Invalid user hadoop from 49.235.243.246 port 39276
+
+** Alert 1585101216.21979: - syslog,sshd,invalid_login,authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,pci_dss_10.6.1,gpg13_7.1,gdpr_IV_35.7.d,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AU.6,
+2020 Mar 25 01:53:36 haran-ids-lab->/var/log/secure
+Rule: 5710 (level 5) -> 'sshd: Attempt to login using a non-existent user'
+Src IP: 113.141.166.197
+Src Port: 57792
+Mar 25 01:53:35 haran-ids-lab sshd[9565]: Invalid user jerry from 113.141.166.197 port 57792
+
+** Alert 1585101299.22469: - syslog,sshd,invalid_login,authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,pci_dss_10.6.1,gpg13_7.1,gdpr_IV_35.7.d,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AU.6,
+2020 Mar 25 01:54:59 haran-ids-lab->/var/log/secure
+Rule: 5710 (level 5) -> 'sshd: Attempt to login using a non-existent user'
+Src IP: 116.247.81.100
+Src Port: 54305
+Mar 25 01:54:58 haran-ids-lab sshd[9916]: Invalid user francisc from 116.247.81.100 port 54305
+
+** Alert 1585101361.22960: - syslog,sshd,invalid_login,authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,pci_dss_10.6.1,gpg13_7.1,gdpr_IV_35.7.d,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AU.6,
+2020 Mar 25 01:56:01 haran-ids-lab->/var/log/secure
+Rule: 5710 (level 5) -> 'sshd: Attempt to login using a non-existent user'
+Src IP: 104.236.224.69
+Src Port: 38668
+Mar 25 01:55:59 haran-ids-lab sshd[10261]: Invalid user kala from 104.236.224.69 port 38668
+
+** Alert 1585101523.23448: - syslog,sshd,invalid_login,authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,pci_dss_10.6.1,gpg13_7.1,gdpr_IV_35.7.d,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AU.6,
+2020 Mar 25 01:58:43 haran-ids-lab->/var/log/secure
+Rule: 5710 (level 5) -> 'sshd: Attempt to login using a non-existent user'
+Src IP: 91.233.42.38
+Src Port: 53783
+Mar 25 01:58:43 haran-ids-lab sshd[10921]: Invalid user person from 91.233.42.38 port 53783
+
+** Alert 1585101599.23934: - syslog,sshd,invalid_login,authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,pci_dss_10.6.1,gpg13_7.1,gdpr_IV_35.7.d,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AU.6,
+2020 Mar 25 01:59:59 haran-ids-lab->/var/log/secure
+Rule: 5710 (level 5) -> 'sshd: Attempt to login using a non-existent user'
+Src IP: 37.59.22.4
+Src Port: 50387
+Mar 25 01:59:58 haran-ids-lab sshd[11222]: Invalid user italy from 37.59.22.4 port 50387
+
+** Alert 1585103190.24415: - syslog,sshd,invalid_login,authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,pci_dss_10.6.1,gpg13_7.1,gdpr_IV_35.7.d,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AU.6,
+2020 Mar 25 02:26:30 haran-ids-lab->/var/log/secure
+Rule: 5710 (level 5) -> 'sshd: Attempt to login using a non-existent user'
+Src IP: 106.12.43.66
+Src Port: 51200
+Mar 25 02:26:28 haran-ids-lab sshd[19092]: Invalid user www-data from 106.12.43.66 port 51200
+
+** Alert 1585103266.24903: - syslog,sshd,invalid_login,authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,pci_dss_10.6.1,gpg13_7.1,gdpr_IV_35.7.d,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AU.6,
+2020 Mar 25 02:27:46 haran-ids-lab->/var/log/secure
+Rule: 5710 (level 5) -> 'sshd: Attempt to login using a non-existent user'
+Src IP: 190.60.94.189
+Src Port: 24570
+Mar 25 02:27:45 haran-ids-lab sshd[19415]: Invalid user annabelle from 190.60.94.189 port 24570
+
+** Alert 1585103318.25394: - syslog,sshd,invalid_login,authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,pci_dss_10.6.1,gpg13_7.1,gdpr_IV_35.7.d,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AU.6,
+2020 Mar 25 02:28:38 haran-ids-lab->/var/log/secure
+Rule: 5710 (level 5) -> 'sshd: Attempt to login using a non-existent user'
+Src IP: 115.148.235.31
+Src Port: 57520
+Mar 25 02:28:36 haran-ids-lab sshd[19585]: Invalid user dedicat from 115.148.235.31 port 57520
+
+** Alert 1585103578.25885: - syslog,sshd,invalid_login,authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,pci_dss_10.6.1,gpg13_7.1,gdpr_IV_35.7.d,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AU.6,
+2020 Mar 25 02:32:58 haran-ids-lab->/var/log/secure
+Rule: 5710 (level 5) -> 'sshd: Attempt to login using a non-existent user'
+Src IP: 182.140.195.190
+Src Port: 47322
+Mar 25 02:32:57 haran-ids-lab sshd[20799]: Invalid user martin from 182.140.195.190 port 47322
+
+** Alert 1585103586.26377: - syslog,sshd,invalid_login,authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,pci_dss_10.6.1,gpg13_7.1,gdpr_IV_35.7.d,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AU.6,
+2020 Mar 25 02:33:06 haran-ids-lab->/var/log/secure
+Rule: 5710 (level 5) -> 'sshd: Attempt to login using a non-existent user'
+Src IP: 134.209.250.9
+Src Port: 60144
+Mar 25 02:33:05 haran-ids-lab sshd[20832]: Invalid user wara from 134.209.250.9 port 60144
+
+** Alert 1585103768.26863: - syslog,sshd,invalid_login,authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,pci_dss_10.6.1,gpg13_7.1,gdpr_IV_35.7.d,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AU.6,
+2020 Mar 25 02:36:08 haran-ids-lab->/var/log/secure
+Rule: 5710 (level 5) -> 'sshd: Attempt to login using a non-existent user'
+Src IP: 139.59.16.245
+Src Port: 34338
+Mar 25 02:36:08 haran-ids-lab sshd[21698]: Invalid user zhangjg from 139.59.16.245 port 34338
+
+** Alert 1585103996.27352: - syslog,sshd,pci_dss_11.4,gpg13_4.12,gdpr_IV_35.7.d,nist_800_53_SI.4,
+2020 Mar 25 02:39:56 haran-ids-lab->/var/log/secure
+Rule: 5702 (level 5) -> 'sshd: Reverse lookup error (bad ISP or attack).'
+Src IP: 77.123.155.201
+Mar 25 02:39:56 haran-ids-lab sshd[22622]: reverse mapping checking getaddrinfo for 201.155.123.77.colo.static.dcvolia.com [77.123.155.201] failed - POSSIBLE BREAK-IN ATTEMPT!
+
+** Alert 1585103996.27776: - syslog,sshd,invalid_login,authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,pci_dss_10.6.1,gpg13_7.1,gdpr_IV_35.7.d,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AU.6,
+2020 Mar 25 02:39:56 haran-ids-lab->/var/log/secure
+Rule: 5710 (level 5) -> 'sshd: Attempt to login using a non-existent user'
+Src IP: 77.123.155.201
+Src Port: 40448
+Mar 25 02:39:56 haran-ids-lab sshd[22622]: Invalid user mahogany from 77.123.155.201 port 40448
+
+** Alert 1585104084.28268: - syslog,sshd,invalid_login,authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,pci_dss_10.6.1,gpg13_7.1,gdpr_IV_35.7.d,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AU.6,
+2020 Mar 25 02:41:24 haran-ids-lab->/var/log/secure
+Rule: 5710 (level 5) -> 'sshd: Attempt to login using a non-existent user'
+Src IP: 45.14.150.140
+Src Port: 58854
+Mar 25 02:41:22 haran-ids-lab sshd[23074]: Invalid user unknown from 45.14.150.140 port 58854
+
+** Alert 1585104084.28757: - syslog,sshd,invalid_login,authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,pci_dss_10.6.1,gpg13_7.1,gdpr_IV_35.7.d,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AU.6,
+2020 Mar 25 02:41:24 haran-ids-lab->/var/log/secure
+Rule: 5710 (level 5) -> 'sshd: Attempt to login using a non-existent user'
+Src IP: 83.241.232.51
+Src Port: 45608
+Mar 25 02:41:23 haran-ids-lab sshd[23087]: Invalid user stauf from 83.241.232.51 port 45608
+
+** Alert 1585104334.29244: - syslog,sshd,invalid_login,authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,pci_dss_10.6.1,gpg13_7.1,gdpr_IV_35.7.d,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AU.6,
+2020 Mar 25 02:45:34 haran-ids-lab->/var/log/secure
+Rule: 5710 (level 5) -> 'sshd: Attempt to login using a non-existent user'
+Src IP: 103.45.178.163
+Src Port: 57944
+Mar 25 02:45:32 haran-ids-lab sshd[24218]: Invalid user vm from 103.45.178.163 port 57944
+
+** Alert 1585104590.29730: - syslog,sshd,invalid_login,authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,pci_dss_10.6.1,gpg13_7.1,gdpr_IV_35.7.d,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AU.6,
+2020 Mar 25 02:49:50 haran-ids-lab->/var/log/secure
+Rule: 5710 (level 5) -> 'sshd: Attempt to login using a non-existent user'
+Src IP: 171.244.51.119
+Src Port: 53972
+Mar 25 02:49:49 haran-ids-lab sshd[25249]: Invalid user vg from 171.244.51.119 port 53972
+
+** Alert 1585104894.30216: - syslog,sshd,invalid_login,authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,pci_dss_10.6.1,gpg13_7.1,gdpr_IV_35.7.d,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AU.6,
+2020 Mar 25 02:54:54 haran-ids-lab->/var/log/secure
+Rule: 5710 (level 5) -> 'sshd: Attempt to login using a non-existent user'
+Src IP: 118.89.191.145
+Src Port: 34890
+Mar 25 02:54:54 haran-ids-lab sshd[26595]: Invalid user adelia from 118.89.191.145 port 34890
+
+** Alert 1585106217.30706: - syslog,sshd,recon,pci_dss_11.4,gpg13_4.12,gdpr_IV_35.7.d,nist_800_53_SI.4,
+2020 Mar 25 03:16:57 haran-ids-lab->/var/log/secure
+Rule: 5706 (level 6) -> 'sshd: insecure connection attempt (scan).'
+Src IP: 167.86.66.67
+Src Port: 35770
+Mar 25 03:16:56 haran-ids-lab sshd[658]: Did not receive identification string from 167.86.66.67 port 35770
+
+** Alert 1585106814.31076: - syslog,sshd,pci_dss_11.4,gpg13_4.12,gdpr_IV_35.7.d,nist_800_53_SI.4,
+2020 Mar 25 03:26:54 haran-ids-lab->/var/log/secure
+Rule: 5702 (level 5) -> 'sshd: Reverse lookup error (bad ISP or attack).'
+Src IP: 136.232.243.134
+Mar 25 03:26:52 haran-ids-lab sshd[3145]: reverse mapping checking getaddrinfo for 136.232.243.134.static.jio.com [136.232.243.134] failed - POSSIBLE BREAK-IN ATTEMPT!
+
+** Alert 1585106814.31493: - syslog,sshd,invalid_login,authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,pci_dss_10.6.1,gpg13_7.1,gdpr_IV_35.7.d,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AU.6,
+2020 Mar 25 03:26:54 haran-ids-lab->/var/log/secure
+Rule: 5710 (level 5) -> 'sshd: Attempt to login using a non-existent user'
+Src IP: 136.232.243.134
+Src Port: 48728
+Mar 25 03:26:52 haran-ids-lab sshd[3145]: Invalid user lh from 136.232.243.134 port 48728
+
+** Alert 1585107202.31980: - syslog,sshd,invalid_login,authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,pci_dss_10.6.1,gpg13_7.1,gdpr_IV_35.7.d,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AU.6,
+2020 Mar 25 03:33:22 haran-ids-lab->/var/log/secure
+Rule: 5710 (level 5) -> 'sshd: Attempt to login using a non-existent user'
+Src IP: 218.90.138.98
+Src Port: 45723
+Mar 25 03:33:21 haran-ids-lab sshd[5082]: Invalid user tir from 218.90.138.98 port 45723
+
+** Alert 1585107308.32464: - syslog,sshd,invalid_login,authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,pci_dss_10.6.1,gpg13_7.1,gdpr_IV_35.7.d,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AU.6,
+2020 Mar 25 03:35:08 haran-ids-lab->/var/log/secure
+Rule: 5710 (level 5) -> 'sshd: Attempt to login using a non-existent user'
+Src IP: 111.6.76.125
+Src Port: 14600
+Mar 25 03:35:07 haran-ids-lab sshd[5492]: Invalid user mailer from 111.6.76.125 port 14600
+
+** Alert 1585107350.32949: - syslog,sshd,invalid_login,authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,pci_dss_10.6.1,gpg13_7.1,gdpr_IV_35.7.d,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AU.6,
+2020 Mar 25 03:35:50 haran-ids-lab->/var/log/secure
+Rule: 5710 (level 5) -> 'sshd: Attempt to login using a non-existent user'
+Src IP: 193.112.107.55
+Src Port: 44866
+Mar 25 03:35:49 haran-ids-lab sshd[5783]: Invalid user jira from 193.112.107.55 port 44866
+
+** Alert 1585107358.33436: - syslog,sshd,invalid_login,authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,pci_dss_10.6.1,gpg13_7.1,gdpr_IV_35.7.d,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AU.6,
+2020 Mar 25 03:35:58 haran-ids-lab->/var/log/secure
+Rule: 5710 (level 5) -> 'sshd: Attempt to login using a non-existent user'
+Src IP: 101.255.65.138
+Src Port: 45594
+Mar 25 03:35:57 haran-ids-lab sshd[5825]: Invalid user opfor from 101.255.65.138 port 45594
+
+** Alert 1585107536.33924: - syslog,sshd,invalid_login,authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,pci_dss_10.6.1,gpg13_7.1,gdpr_IV_35.7.d,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AU.6,
+2020 Mar 25 03:38:56 haran-ids-lab->/var/log/secure
+Rule: 5710 (level 5) -> 'sshd: Attempt to login using a non-existent user'
+Src IP: 190.210.164.165
+Src Port: 34940
+Mar 25 03:38:55 haran-ids-lab sshd[6537]: Invalid user ly from 190.210.164.165 port 34940
+
+** Alert 1585107570.34411: - syslog,sshd,pci_dss_11.4,gpg13_4.12,gdpr_IV_35.7.d,nist_800_53_SI.4,
+2020 Mar 25 03:39:30 haran-ids-lab->/var/log/secure
+Rule: 5702 (level 5) -> 'sshd: Reverse lookup error (bad ISP or attack).'
+Src IP: 94.198.110.205
+Mar 25 03:39:29 haran-ids-lab sshd[6679]: reverse mapping checking getaddrinfo for host110-205.almatel.ru [94.198.110.205] failed - POSSIBLE BREAK-IN ATTEMPT!
+
+** Alert 1585107570.34818: - syslog,sshd,invalid_login,authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,pci_dss_10.6.1,gpg13_7.1,gdpr_IV_35.7.d,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AU.6,
+2020 Mar 25 03:39:30 haran-ids-lab->/var/log/secure
+Rule: 5710 (level 5) -> 'sshd: Attempt to login using a non-existent user'
+Src IP: 94.198.110.205
+Src Port: 33473
+Mar 25 03:39:29 haran-ids-lab sshd[6679]: Invalid user ace from 94.198.110.205 port 33473
+
+** Alert 1585107670.35304: - syslog,sshd,invalid_login,authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,pci_dss_10.6.1,gpg13_7.1,gdpr_IV_35.7.d,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AU.6,
+2020 Mar 25 03:41:10 haran-ids-lab->/var/log/secure
+Rule: 5710 (level 5) -> 'sshd: Attempt to login using a non-existent user'
+Src IP: 124.251.110.148
+Src Port: 58112
+Mar 25 03:41:09 haran-ids-lab sshd[7190]: Invalid user bg from 124.251.110.148 port 58112
+
+** Alert 1585107690.35791: - syslog,sshd,invalid_login,authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,pci_dss_10.6.1,gpg13_7.1,gdpr_IV_35.7.d,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AU.6,
+2020 Mar 25 03:41:30 haran-ids-lab->/var/log/secure
+Rule: 5710 (level 5) -> 'sshd: Attempt to login using a non-existent user'
+Src IP: 207.154.213.152
+Src Port: 44762
+Mar 25 03:41:30 haran-ids-lab sshd[7272]: Invalid user malcolm from 207.154.213.152 port 44762
+
+** Alert 1585107708.36283: - syslog,sshd,recon,pci_dss_11.4,gpg13_4.12,gdpr_IV_35.7.d,nist_800_53_SI.4,
+2020 Mar 25 03:41:48 haran-ids-lab->/var/log/secure
+Rule: 5706 (level 6) -> 'sshd: insecure connection attempt (scan).'
+Src IP: 80.82.64.134
+Src Port: 43245
+Mar 25 03:41:47 haran-ids-lab sshd[7348]: Did not receive identification string from 80.82.64.134 port 43245
+
+** Alert 1585107716.36654: - syslog,sshd,invalid_login,authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,pci_dss_10.6.1,gpg13_7.1,gdpr_IV_35.7.d,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AU.6,
+2020 Mar 25 03:41:56 haran-ids-lab->/var/log/secure
+Rule: 5710 (level 5) -> 'sshd: Attempt to login using a non-existent user'
+Src IP: 80.82.64.134
+Src Port: 45586
+Mar 25 03:41:56 haran-ids-lab sshd[7366]: Invalid user admin from 80.82.64.134 port 45586
+
+** Alert 1585107732.37138: - syslog,sshd,invalid_login,authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,pci_dss_10.6.1,gpg13_7.1,gdpr_IV_35.7.d,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AU.6,
+2020 Mar 25 03:42:12 haran-ids-lab->/var/log/secure
+Rule: 5710 (level 5) -> 'sshd: Attempt to login using a non-existent user'
+Src IP: 37.187.97.33
+Src Port: 45957
+Mar 25 03:42:10 haran-ids-lab sshd[7429]: Invalid user hp from 37.187.97.33 port 45957
+
+** Alert 1585107840.37619: - syslog,sshd,invalid_login,authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,pci_dss_10.6.1,gpg13_7.1,gdpr_IV_35.7.d,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AU.6,
+2020 Mar 25 03:44:00 haran-ids-lab->/var/log/secure
+Rule: 5710 (level 5) -> 'sshd: Attempt to login using a non-existent user'
+Src IP: 163.179.126.39
+Src Port: 34313
+Mar 25 03:44:00 haran-ids-lab sshd[7872]: Invalid user taeyoung from 163.179.126.39 port 34313
+
+** Alert 1585107868.38110: - syslog,sshd,invalid_login,authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,pci_dss_10.6.1,gpg13_7.1,gdpr_IV_35.7.d,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AU.6,
+2020 Mar 25 03:44:28 haran-ids-lab->/var/log/secure
+Rule: 5710 (level 5) -> 'sshd: Attempt to login using a non-existent user'
+Src IP: 92.222.92.114
+Src Port: 37092
+Mar 25 03:44:28 haran-ids-lab sshd[8002]: Invalid user love4u from 92.222.92.114 port 37092
+
+** Alert 1585107952.38597: - syslog,sshd,pci_dss_11.4,gpg13_4.12,gdpr_IV_35.7.d,nist_800_53_SI.4,
+2020 Mar 25 03:45:52 haran-ids-lab->/var/log/secure
+Rule: 5702 (level 5) -> 'sshd: Reverse lookup error (bad ISP or attack).'
+Src IP: 189.240.117.236
+Mar 25 03:45:50 haran-ids-lab sshd[8445]: reverse mapping checking getaddrinfo for customer-189-240-117-236.uninet-ide.com.mx [189.240.117.236] failed - POSSIBLE BREAK-IN ATTEMPT!
+
+** Alert 1585107952.39026: - syslog,sshd,invalid_login,authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,pci_dss_10.6.1,gpg13_7.1,gdpr_IV_35.7.d,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AU.6,
+2020 Mar 25 03:45:52 haran-ids-lab->/var/log/secure
+Rule: 5710 (level 5) -> 'sshd: Attempt to login using a non-existent user'
+Src IP: 189.240.117.236
+Src Port: 49508
+Mar 25 03:45:50 haran-ids-lab sshd[8445]: Invalid user ts2 from 189.240.117.236 port 49508
+
+** Alert 1585107972.39514: - syslog,sshd,pci_dss_11.4,gpg13_4.12,gdpr_IV_35.7.d,nist_800_53_SI.4,
+2020 Mar 25 03:46:12 haran-ids-lab->/var/log/secure
+Rule: 5702 (level 5) -> 'sshd: Reverse lookup error (bad ISP or attack).'
+Src IP: 186.10.125.209
+Mar 25 03:46:11 haran-ids-lab sshd[8523]: reverse mapping checking getaddrinfo for z407.entelchile.net [186.10.125.209] failed - POSSIBLE BREAK-IN ATTEMPT!
+
+** Alert 1585107972.39918: - syslog,sshd,invalid_login,authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,pci_dss_10.6.1,gpg13_7.1,gdpr_IV_35.7.d,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AU.6,
+2020 Mar 25 03:46:12 haran-ids-lab->/var/log/secure
+Rule: 5710 (level 5) -> 'sshd: Attempt to login using a non-existent user'
+Src IP: 49.232.95.250
+Src Port: 41314
+Mar 25 03:46:11 haran-ids-lab sshd[8533]: Invalid user pp from 49.232.95.250 port 41314
+
+** Alert 1585107972.40401: - syslog,sshd,invalid_login,authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,pci_dss_10.6.1,gpg13_7.1,gdpr_IV_35.7.d,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AU.6,
+2020 Mar 25 03:46:12 haran-ids-lab->/var/log/secure
+Rule: 5710 (level 5) -> 'sshd: Attempt to login using a non-existent user'
+Src IP: 186.10.125.209
+Src Port: 15453
+Mar 25 03:46:11 haran-ids-lab sshd[8523]: Invalid user hl from 186.10.125.209 port 15453
+
+** Alert 1585108040.40886: - syslog,sshd,invalid_login,authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,pci_dss_10.6.1,gpg13_7.1,gdpr_IV_35.7.d,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AU.6,
+2020 Mar 25 03:47:20 haran-ids-lab->/var/log/secure
+Rule: 5710 (level 5) -> 'sshd: Attempt to login using a non-existent user'
+Src IP: 106.12.184.217
+Src Port: 54964
+Mar 25 03:47:20 haran-ids-lab sshd[8812]: Invalid user sw from 106.12.184.217 port 54964
+
+** Alert 1585108136.41371: - syslog,sshd,invalid_login,authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,pci_dss_10.6.1,gpg13_7.1,gdpr_IV_35.7.d,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AU.6,
+2020 Mar 25 03:48:56 haran-ids-lab->/var/log/secure
+Rule: 5710 (level 5) -> 'sshd: Attempt to login using a non-existent user'
+Src IP: 51.91.11.200
+Src Port: 44904
+Mar 25 03:48:56 haran-ids-lab sshd[9203]: Invalid user mouzj from 51.91.11.200 port 44904
+
+** Alert 1585108200.41855: - syslog,sshd,pci_dss_11.4,gpg13_4.12,gdpr_IV_35.7.d,nist_800_53_SI.4,
+2020 Mar 25 03:50:00 haran-ids-lab->/var/log/secure
+Rule: 5702 (level 5) -> 'sshd: Reverse lookup error (bad ISP or attack).'
+Src IP: 200.209.174.92
+Mar 25 03:49:59 haran-ids-lab sshd[9457]: reverse mapping checking getaddrinfo for cs-200-209-174-92.embratelcloud.com.br [200.209.174.92] failed - POSSIBLE BREAK-IN ATTEMPT!
+
+** Alert 1585108200.42278: - syslog,sshd,invalid_login,authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,pci_dss_10.6.1,gpg13_7.1,gdpr_IV_35.7.d,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AU.6,
+2020 Mar 25 03:50:00 haran-ids-lab->/var/log/secure
+Rule: 5710 (level 5) -> 'sshd: Attempt to login using a non-existent user'
+Src IP: 200.209.174.92
+Src Port: 50065
+Mar 25 03:49:59 haran-ids-lab sshd[9457]: Invalid user web1 from 200.209.174.92 port 50065
+
+** Alert 1585108310.42765: - syslog,sshd,pci_dss_11.4,gpg13_4.12,gdpr_IV_35.7.d,nist_800_53_SI.4,
+2020 Mar 25 03:51:50 haran-ids-lab->/var/log/secure
+Rule: 5702 (level 5) -> 'sshd: Reverse lookup error (bad ISP or attack).'
+Src IP: 107.170.113.190
+Mar 25 03:51:49 haran-ids-lab sshd[10001]: reverse mapping checking getaddrinfo for www.flatland-01 [107.170.113.190] failed - POSSIBLE BREAK-IN ATTEMPT!
+
+** Alert 1585108392.43168: - syslog,sshd,pci_dss_11.4,gpg13_4.12,gdpr_IV_35.7.d,nist_800_53_SI.4,
+2020 Mar 25 03:53:12 haran-ids-lab->/var/log/secure
+Rule: 5702 (level 5) -> 'sshd: Reverse lookup error (bad ISP or attack).'
+Src IP: 198.245.53.242
+Mar 25 03:53:10 haran-ids-lab sshd[10342]: reverse mapping checking getaddrinfo for 242.ip-198-245-53.net [198.245.53.242] failed - POSSIBLE BREAK-IN ATTEMPT!
+
+** Alert 1585108392.43575: - syslog,sshd,invalid_login,authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,pci_dss_10.6.1,gpg13_7.1,gdpr_IV_35.7.d,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AU.6,
+2020 Mar 25 03:53:12 haran-ids-lab->/var/log/secure
+Rule: 5710 (level 5) -> 'sshd: Attempt to login using a non-existent user'
+Src IP: 198.245.53.242
+Src Port: 56634
+Mar 25 03:53:10 haran-ids-lab sshd[10342]: Invalid user ayesha from 198.245.53.242 port 56634
+
+** Alert 1585108817.44065: - syslog,sshd,recon,pci_dss_11.4,gpg13_4.12,gdpr_IV_35.7.d,nist_800_53_SI.4,
+2020 Mar 25 04:00:17 haran-ids-lab->/var/log/secure
+Rule: 5706 (level 6) -> 'sshd: insecure connection attempt (scan).'
+Src IP: 45.95.168.243
+Src Port: 34714
+Mar 25 04:00:17 haran-ids-lab sshd[12850]: Did not receive identification string from 45.95.168.243 port 34714
+
+** Alert 1585108823.44439: - syslog,sshd,pci_dss_11.4,gpg13_4.12,gdpr_IV_35.7.d,nist_800_53_SI.4,
+2020 Mar 25 04:00:23 haran-ids-lab->/var/log/secure
+Rule: 5702 (level 5) -> 'sshd: Reverse lookup error (bad ISP or attack).'
+Src IP: 45.95.168.243
+Mar 25 04:00:21 haran-ids-lab sshd[12863]: reverse mapping checking getaddrinfo for remain-user.penmeta.org [45.95.168.243] failed - POSSIBLE BREAK-IN ATTEMPT!
+
+** Alert 1585108829.44846: - syslog,sshd,pci_dss_11.4,gpg13_4.12,gdpr_IV_35.7.d,nist_800_53_SI.4,
+2020 Mar 25 04:00:29 haran-ids-lab->/var/log/secure
+Rule: 5702 (level 5) -> 'sshd: Reverse lookup error (bad ISP or attack).'
+Src IP: 45.95.168.243
+Mar 25 04:00:27 haran-ids-lab sshd[12884]: reverse mapping checking getaddrinfo for remain-user.penmeta.org [45.95.168.243] failed - POSSIBLE BREAK-IN ATTEMPT!
+
+** Alert 1585108829.45253: - syslog,sshd,invalid_login,authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,pci_dss_10.6.1,gpg13_7.1,gdpr_IV_35.7.d,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AU.6,
+2020 Mar 25 04:00:29 haran-ids-lab->/var/log/secure
+Rule: 5710 (level 5) -> 'sshd: Attempt to login using a non-existent user'
+Src IP: 45.95.168.243
+Src Port: 51617
+Mar 25 04:00:27 haran-ids-lab sshd[12884]: Invalid user oracle from 45.95.168.243 port 51617
+
+** Alert 1585108831.45741: - syslog,sshd,pci_dss_11.4,gpg13_4.12,gdpr_IV_35.7.d,nist_800_53_SI.4,
+2020 Mar 25 04:00:31 haran-ids-lab->/var/log/secure
+Rule: 5702 (level 5) -> 'sshd: Reverse lookup error (bad ISP or attack).'
+Src IP: 45.95.168.243
+Mar 25 04:00:30 haran-ids-lab sshd[12901]: reverse mapping checking getaddrinfo for remain-user.penmeta.org [45.95.168.243] failed - POSSIBLE BREAK-IN ATTEMPT!
+
+** Alert 1585108837.46148: - syslog,sshd,pci_dss_11.4,gpg13_4.12,gdpr_IV_35.7.d,nist_800_53_SI.4,
+2020 Mar 25 04:00:37 haran-ids-lab->/var/log/secure
+Rule: 5702 (level 5) -> 'sshd: Reverse lookup error (bad ISP or attack).'
+Src IP: 45.95.168.243
+Mar 25 04:00:35 haran-ids-lab sshd[12922]: reverse mapping checking getaddrinfo for remain-user.penmeta.org [45.95.168.243] failed - POSSIBLE BREAK-IN ATTEMPT!
+
+** Alert 1585108837.46555: - syslog,sshd,invalid_login,authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,pci_dss_10.6.1,gpg13_7.1,gdpr_IV_35.7.d,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AU.6,
+2020 Mar 25 04:00:37 haran-ids-lab->/var/log/secure
+Rule: 5710 (level 5) -> 'sshd: Attempt to login using a non-existent user'
+Src IP: 45.95.168.243
+Src Port: 38529
+Mar 25 04:00:35 haran-ids-lab sshd[12922]: Invalid user postgres from 45.95.168.243 port 38529
+
+** Alert 1585108841.47045: - syslog,sshd,pci_dss_11.4,gpg13_4.12,gdpr_IV_35.7.d,nist_800_53_SI.4,
+2020 Mar 25 04:00:41 haran-ids-lab->/var/log/secure
+Rule: 5702 (level 5) -> 'sshd: Reverse lookup error (bad ISP or attack).'
+Src IP: 45.95.168.243
+Mar 25 04:00:40 haran-ids-lab sshd[12943]: reverse mapping checking getaddrinfo for remain-user.penmeta.org [45.95.168.243] failed - POSSIBLE BREAK-IN ATTEMPT!
+
+** Alert 1585108845.47452: - syslog,sshd,invalid_login,authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,pci_dss_10.6.1,gpg13_7.1,gdpr_IV_35.7.d,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AU.6,
+2020 Mar 25 04:00:45 haran-ids-lab->/var/log/secure
+Rule: 5710 (level 5) -> 'sshd: Attempt to login using a non-existent user'
+Src IP: 45.95.168.243
+Src Port: 53666
+Mar 25 04:00:44 haran-ids-lab sshd[12964]: Invalid user hadoop from 45.95.168.243 port 53666
+
+** Alert 1585108845.47940: - syslog,sshd,pci_dss_11.4,gpg13_4.12,gdpr_IV_35.7.d,nist_800_53_SI.4,
+2020 Mar 25 04:00:45 haran-ids-lab->/var/log/secure
+Rule: 5703 (level 10) -> 'sshd: Possible breakin attempt (high number of reverse lookup errors).'
+Src IP: 45.95.168.243
+Mar 25 04:00:44 haran-ids-lab sshd[12964]: reverse mapping checking getaddrinfo for remain-user.penmeta.org [45.95.168.243] failed - POSSIBLE BREAK-IN ATTEMPT!
+Mar 25 04:00:40 haran-ids-lab sshd[12943]: reverse mapping checking getaddrinfo for remain-user.penmeta.org [45.95.168.243] failed - POSSIBLE BREAK-IN ATTEMPT!
+Mar 25 04:00:35 haran-ids-lab sshd[12922]: reverse mapping checking getaddrinfo for remain-user.penmeta.org [45.95.168.243] failed - POSSIBLE BREAK-IN ATTEMPT!
+Mar 25 04:00:30 haran-ids-lab sshd[12901]: reverse mapping checking getaddrinfo for remain-user.penmeta.org [45.95.168.243] failed - POSSIBLE BREAK-IN ATTEMPT!
+Mar 25 04:00:27 haran-ids-lab sshd[12884]: reverse mapping checking getaddrinfo for remain-user.penmeta.org [45.95.168.243] failed - POSSIBLE BREAK-IN ATTEMPT!
+Mar 25 04:00:21 haran-ids-lab sshd[12863]: reverse mapping checking getaddrinfo for remain-user.penmeta.org [45.95.168.243] failed - POSSIBLE BREAK-IN ATTEMPT!
+
+** Alert 1585108851.49171: - syslog,sshd,pci_dss_11.4,gpg13_4.12,gdpr_IV_35.7.d,nist_800_53_SI.4,
+2020 Mar 25 04:00:51 haran-ids-lab->/var/log/secure
+Rule: 5702 (level 5) -> 'sshd: Reverse lookup error (bad ISP or attack).'
+Src IP: 45.95.168.243
+Mar 25 04:00:49 haran-ids-lab sshd[12985]: reverse mapping checking getaddrinfo for remain-user.penmeta.org [45.95.168.243] failed - POSSIBLE BREAK-IN ATTEMPT!
+
+** Alert 1585108857.49578: - syslog,sshd,pci_dss_11.4,gpg13_4.12,gdpr_IV_35.7.d,nist_800_53_SI.4,
+2020 Mar 25 04:00:57 haran-ids-lab->/var/log/secure
+Rule: 5702 (level 5) -> 'sshd: Reverse lookup error (bad ISP or attack).'
+Src IP: 45.95.168.243
+Mar 25 04:00:56 haran-ids-lab sshd[13007]: reverse mapping checking getaddrinfo for remain-user.penmeta.org [45.95.168.243] failed - POSSIBLE BREAK-IN ATTEMPT!
+
+** Alert 1585108857.49985: - syslog,sshd,invalid_login,authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,pci_dss_10.6.1,gpg13_7.1,gdpr_IV_35.7.d,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AU.6,
+2020 Mar 25 04:00:57 haran-ids-lab->/var/log/secure
+Rule: 5710 (level 5) -> 'sshd: Attempt to login using a non-existent user'
+Src IP: 45.95.168.243
+Src Port: 40566
+Mar 25 04:00:56 haran-ids-lab sshd[13007]: Invalid user git from 45.95.168.243 port 40566
+
+** Alert 1585108869.50470: - syslog,sshd,pci_dss_11.4,gpg13_4.12,gdpr_IV_35.7.d,nist_800_53_SI.4,
+2020 Mar 25 04:01:09 haran-ids-lab->/var/log/secure
+Rule: 5702 (level 5) -> 'sshd: Reverse lookup error (bad ISP or attack).'
+Src IP: 45.95.168.243
+Mar 25 04:01:07 haran-ids-lab sshd[13097]: reverse mapping checking getaddrinfo for remain-user.penmeta.org [45.95.168.243] failed - POSSIBLE BREAK-IN ATTEMPT!
+
+** Alert 1585108939.50877: - syslog,sshd,pci_dss_11.4,gpg13_4.12,gdpr_IV_35.7.d,nist_800_53_SI.4,
+2020 Mar 25 04:02:19 haran-ids-lab->/var/log/secure
+Rule: 5702 (level 5) -> 'sshd: Reverse lookup error (bad ISP or attack).'
+Src IP: 45.95.168.243
+Mar 25 04:02:19 haran-ids-lab sshd[13384]: reverse mapping checking getaddrinfo for remain-user.penmeta.org [45.95.168.243] failed - POSSIBLE BREAK-IN ATTEMPT!
+
+** Alert 1585108947.51284: - syslog,sshd,pci_dss_11.4,gpg13_4.12,gdpr_IV_35.7.d,nist_800_53_SI.4,
+2020 Mar 25 04:02:27 haran-ids-lab->/var/log/secure
+Rule: 5702 (level 5) -> 'sshd: Reverse lookup error (bad ISP or attack).'
+Src IP: 45.95.168.243
+Mar 25 04:02:26 haran-ids-lab sshd[13420]: reverse mapping checking getaddrinfo for remain-user.penmeta.org [45.95.168.243] failed - POSSIBLE BREAK-IN ATTEMPT!
+
+** Alert 1585108951.51691: - syslog,sshd,pci_dss_11.4,gpg13_4.12,gdpr_IV_35.7.d,nist_800_53_SI.4,
+2020 Mar 25 04:02:31 haran-ids-lab->/var/log/secure
+Rule: 5703 (level 10) -> 'sshd: Possible breakin attempt (high number of reverse lookup errors).'
+Src IP: 45.95.168.243
+Mar 25 04:02:30 haran-ids-lab sshd[13434]: reverse mapping checking getaddrinfo for remain-user.penmeta.org [45.95.168.243] failed - POSSIBLE BREAK-IN ATTEMPT!
+Mar 25 04:02:26 haran-ids-lab sshd[13420]: reverse mapping checking getaddrinfo for remain-user.penmeta.org [45.95.168.243] failed - POSSIBLE BREAK-IN ATTEMPT!
+Mar 25 04:02:19 haran-ids-lab sshd[13384]: reverse mapping checking getaddrinfo for remain-user.penmeta.org [45.95.168.243] failed - POSSIBLE BREAK-IN ATTEMPT!
+Mar 25 04:01:07 haran-ids-lab sshd[13097]: reverse mapping checking getaddrinfo for remain-user.penmeta.org [45.95.168.243] failed - POSSIBLE BREAK-IN ATTEMPT!
+Mar 25 04:00:56 haran-ids-lab sshd[13007]: reverse mapping checking getaddrinfo for remain-user.penmeta.org [45.95.168.243] failed - POSSIBLE BREAK-IN ATTEMPT!
+Mar 25 04:00:49 haran-ids-lab sshd[12985]: reverse mapping checking getaddrinfo for remain-user.penmeta.org [45.95.168.243] failed - POSSIBLE BREAK-IN ATTEMPT!
+
+** Alert 1585108951.52922: - syslog,sshd,invalid_login,authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,pci_dss_10.6.1,gpg13_7.1,gdpr_IV_35.7.d,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AU.6,
+2020 Mar 25 04:02:31 haran-ids-lab->/var/log/secure
+Rule: 5710 (level 5) -> 'sshd: Attempt to login using a non-existent user'
+Src IP: 45.95.168.243
+Src Port: 46680
+Mar 25 04:02:30 haran-ids-lab sshd[13434]: Invalid user svn from 45.95.168.243 port 46680
+
+** Alert 1585108955.53407: - syslog,sshd,pci_dss_11.4,gpg13_4.12,gdpr_IV_35.7.d,nist_800_53_SI.4,
+2020 Mar 25 04:02:35 haran-ids-lab->/var/log/secure
+Rule: 5702 (level 5) -> 'sshd: Reverse lookup error (bad ISP or attack).'
+Src IP: 45.95.168.243
+Mar 25 04:02:34 haran-ids-lab sshd[13451]: reverse mapping checking getaddrinfo for remain-user.penmeta.org [45.95.168.243] failed - POSSIBLE BREAK-IN ATTEMPT!
+
+** Alert 1585108955.53814: - syslog,sshd,invalid_login,authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,pci_dss_10.6.1,gpg13_7.1,gdpr_IV_35.7.d,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AU.6,
+2020 Mar 25 04:02:35 haran-ids-lab->/var/log/secure
+Rule: 5710 (level 5) -> 'sshd: Attempt to login using a non-existent user'
+Src IP: 45.95.168.243
+Src Port: 33548
+Mar 25 04:02:34 haran-ids-lab sshd[13451]: Invalid user ubuntu from 45.95.168.243 port 33548
+
+** Alert 1585108959.54302: - syslog,sshd,pci_dss_11.4,gpg13_4.12,gdpr_IV_35.7.d,nist_800_53_SI.4,
+2020 Mar 25 04:02:39 haran-ids-lab->/var/log/secure
+Rule: 5702 (level 5) -> 'sshd: Reverse lookup error (bad ISP or attack).'
+Src IP: 45.95.168.243
+Mar 25 04:02:38 haran-ids-lab sshd[13469]: reverse mapping checking getaddrinfo for remain-user.penmeta.org [45.95.168.243] failed - POSSIBLE BREAK-IN ATTEMPT!
+
+** Alert 1585108965.54709: - syslog,sshd,pci_dss_11.4,gpg13_4.12,gdpr_IV_35.7.d,nist_800_53_SI.4,
+2020 Mar 25 04:02:45 haran-ids-lab->/var/log/secure
+Rule: 5702 (level 5) -> 'sshd: Reverse lookup error (bad ISP or attack).'
+Src IP: 45.95.168.243
+Mar 25 04:02:44 haran-ids-lab sshd[13493]: reverse mapping checking getaddrinfo for remain-user.penmeta.org [45.95.168.243] failed - POSSIBLE BREAK-IN ATTEMPT!
+
+** Alert 1585108965.55116: - syslog,sshd,invalid_login,authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,pci_dss_10.6.1,gpg13_7.1,gdpr_IV_35.7.d,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AU.6,
+2020 Mar 25 04:02:45 haran-ids-lab->/var/log/secure
+Rule: 5710 (level 5) -> 'sshd: Attempt to login using a non-existent user'
+Src IP: 45.95.168.243
+Src Port: 48697
+Mar 25 04:02:44 haran-ids-lab sshd[13493]: Invalid user ts3 from 45.95.168.243 port 48697
+
+** Alert 1585108969.55601: - syslog,sshd,pci_dss_11.4,gpg13_4.12,gdpr_IV_35.7.d,nist_800_53_SI.4,
+2020 Mar 25 04:02:49 haran-ids-lab->/var/log/secure
+Rule: 5702 (level 5) -> 'sshd: Reverse lookup error (bad ISP or attack).'
+Src IP: 45.95.168.243
+Mar 25 04:02:48 haran-ids-lab sshd[13510]: reverse mapping checking getaddrinfo for remain-user.penmeta.org [45.95.168.243] failed - POSSIBLE BREAK-IN ATTEMPT!
+
+** Alert 1585108969.56008: - syslog,sshd,invalid_login,authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,pci_dss_10.6.1,gpg13_7.1,gdpr_IV_35.7.d,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AU.6,
+2020 Mar 25 04:02:49 haran-ids-lab->/var/log/secure
+Rule: 5710 (level 5) -> 'sshd: Attempt to login using a non-existent user'
+Src IP: 45.95.168.243
+Src Port: 56245
+Mar 25 04:02:48 haran-ids-lab sshd[13510]: Invalid user odoo from 45.95.168.243 port 56245
+
+** Alert 1585108975.56494: - syslog,sshd,pci_dss_11.4,gpg13_4.12,gdpr_IV_35.7.d,nist_800_53_SI.4,
+2020 Mar 25 04:02:55 haran-ids-lab->/var/log/secure
+Rule: 5702 (level 5) -> 'sshd: Reverse lookup error (bad ISP or attack).'
+Src IP: 45.95.168.243
+Mar 25 04:02:53 haran-ids-lab sshd[13539]: reverse mapping checking getaddrinfo for remain-user.penmeta.org [45.95.168.243] failed - POSSIBLE BREAK-IN ATTEMPT!
+
+** Alert 1585108991.56901: - syslog,sshd,pci_dss_11.4,gpg13_4.12,gdpr_IV_35.7.d,nist_800_53_SI.4,
+2020 Mar 25 04:03:11 haran-ids-lab->/var/log/secure
+Rule: 5703 (level 10) -> 'sshd: Possible breakin attempt (high number of reverse lookup errors).'
+Src IP: 45.95.168.243
+Mar 25 04:03:10 haran-ids-lab sshd[13607]: reverse mapping checking getaddrinfo for remain-user.penmeta.org [45.95.168.243] failed - POSSIBLE BREAK-IN ATTEMPT!
+Mar 25 04:02:53 haran-ids-lab sshd[13539]: reverse mapping checking getaddrinfo for remain-user.penmeta.org [45.95.168.243] failed - POSSIBLE BREAK-IN ATTEMPT!
+Mar 25 04:02:48 haran-ids-lab sshd[13510]: reverse mapping checking getaddrinfo for remain-user.penmeta.org [45.95.168.243] failed - POSSIBLE BREAK-IN ATTEMPT!
+Mar 25 04:02:44 haran-ids-lab sshd[13493]: reverse mapping checking getaddrinfo for remain-user.penmeta.org [45.95.168.243] failed - POSSIBLE BREAK-IN ATTEMPT!
+Mar 25 04:02:38 haran-ids-lab sshd[13469]: reverse mapping checking getaddrinfo for remain-user.penmeta.org [45.95.168.243] failed - POSSIBLE BREAK-IN ATTEMPT!
+Mar 25 04:02:34 haran-ids-lab sshd[13451]: reverse mapping checking getaddrinfo for remain-user.penmeta.org [45.95.168.243] failed - POSSIBLE BREAK-IN ATTEMPT!
+
+** Alert 1585108995.58132: - syslog,sshd,pci_dss_11.4,gpg13_4.12,gdpr_IV_35.7.d,nist_800_53_SI.4,
+2020 Mar 25 04:03:15 haran-ids-lab->/var/log/secure
+Rule: 5702 (level 5) -> 'sshd: Reverse lookup error (bad ISP or attack).'
+Src IP: 45.95.168.243
+Mar 25 04:03:14 haran-ids-lab sshd[13617]: reverse mapping checking getaddrinfo for remain-user.penmeta.org [45.95.168.243] failed - POSSIBLE BREAK-IN ATTEMPT!
+
+** Alert 1585108999.58539: - syslog,sshd,pci_dss_11.4,gpg13_4.12,gdpr_IV_35.7.d,nist_800_53_SI.4,
+2020 Mar 25 04:03:19 haran-ids-lab->/var/log/secure
+Rule: 5702 (level 5) -> 'sshd: Reverse lookup error (bad ISP or attack).'
+Src IP: 45.95.168.243
+Mar 25 04:03:17 haran-ids-lab sshd[13647]: reverse mapping checking getaddrinfo for remain-user.penmeta.org [45.95.168.243] failed - POSSIBLE BREAK-IN ATTEMPT!
+
+** Alert 1585109065.58946: - syslog,sshd,pci_dss_11.4,gpg13_4.12,gdpr_IV_35.7.d,nist_800_53_SI.4,
+2020 Mar 25 04:04:25 haran-ids-lab->/var/log/secure
+Rule: 5702 (level 5) -> 'sshd: Reverse lookup error (bad ISP or attack).'
+Src IP: 45.95.168.243
+Mar 25 04:04:23 haran-ids-lab sshd[13918]: reverse mapping checking getaddrinfo for remain-user.penmeta.org [45.95.168.243] failed - POSSIBLE BREAK-IN ATTEMPT!
+
+** Alert 1585109065.59353: - syslog,sshd,pci_dss_11.4,gpg13_4.12,gdpr_IV_35.7.d,nist_800_53_SI.4,
+2020 Mar 25 04:04:25 haran-ids-lab->/var/log/secure
+Rule: 5702 (level 5) -> 'sshd: Reverse lookup error (bad ISP or attack).'
+Src IP: 45.95.168.243
+Mar 25 04:04:24 haran-ids-lab sshd[13923]: reverse mapping checking getaddrinfo for remain-user.penmeta.org [45.95.168.243] failed - POSSIBLE BREAK-IN ATTEMPT!
+
+** Alert 1585109065.59760: - syslog,sshd,invalid_login,authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,pci_dss_10.6.1,gpg13_7.1,gdpr_IV_35.7.d,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AU.6,
+2020 Mar 25 04:04:25 haran-ids-lab->/var/log/secure
+Rule: 5710 (level 5) -> 'sshd: Attempt to login using a non-existent user'
+Src IP: 45.95.168.243
+Src Port: 49243
+Mar 25 04:04:24 haran-ids-lab sshd[13923]: Invalid user webmaster from 45.95.168.243 port 49243
+
+** Alert 1585109071.60251: - syslog,sshd,pci_dss_11.4,gpg13_4.12,gdpr_IV_35.7.d,nist_800_53_SI.4,
+2020 Mar 25 04:04:31 haran-ids-lab->/var/log/secure
+Rule: 5702 (level 5) -> 'sshd: Reverse lookup error (bad ISP or attack).'
+Src IP: 45.95.168.243
+Mar 25 04:04:30 haran-ids-lab sshd[13943]: reverse mapping checking getaddrinfo for remain-user.penmeta.org [45.95.168.243] failed - POSSIBLE BREAK-IN ATTEMPT!
+
+** Alert 1585109075.60658: - syslog,sshd,pci_dss_11.4,gpg13_4.12,gdpr_IV_35.7.d,nist_800_53_SI.4,
+2020 Mar 25 04:04:35 haran-ids-lab->/var/log/secure
+Rule: 5703 (level 10) -> 'sshd: Possible breakin attempt (high number of reverse lookup errors).'
+Src IP: 45.95.168.243
+Mar 25 04:04:34 haran-ids-lab sshd[13968]: reverse mapping checking getaddrinfo for remain-user.penmeta.org [45.95.168.243] failed - POSSIBLE BREAK-IN ATTEMPT!
+Mar 25 04:04:30 haran-ids-lab sshd[13943]: reverse mapping checking getaddrinfo for remain-user.penmeta.org [45.95.168.243] failed - POSSIBLE BREAK-IN ATTEMPT!
+Mar 25 04:04:24 haran-ids-lab sshd[13923]: reverse mapping checking getaddrinfo for remain-user.penmeta.org [45.95.168.243] failed - POSSIBLE BREAK-IN ATTEMPT!
+Mar 25 04:04:23 haran-ids-lab sshd[13918]: reverse mapping checking getaddrinfo for remain-user.penmeta.org [45.95.168.243] failed - POSSIBLE BREAK-IN ATTEMPT!
+Mar 25 04:03:17 haran-ids-lab sshd[13647]: reverse mapping checking getaddrinfo for remain-user.penmeta.org [45.95.168.243] failed - POSSIBLE BREAK-IN ATTEMPT!
+Mar 25 04:03:14 haran-ids-lab sshd[13617]: reverse mapping checking getaddrinfo for remain-user.penmeta.org [45.95.168.243] failed - POSSIBLE BREAK-IN ATTEMPT!
+
+** Alert 1585109079.61889: - syslog,sshd,invalid_login,authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,pci_dss_10.6.1,gpg13_7.1,gdpr_IV_35.7.d,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AU.6,
+2020 Mar 25 04:04:39 haran-ids-lab->/var/log/secure
+Rule: 5710 (level 5) -> 'sshd: Attempt to login using a non-existent user'
+Src IP: 27.47.129.179
+Src Port: 2312
+Mar 25 04:04:37 haran-ids-lab sshd[13929]: Invalid user oracle from 27.47.129.179 port 2312
+
+** Alert 1585109081.62375: - syslog,sshd,pci_dss_11.4,gpg13_4.12,gdpr_IV_35.7.d,nist_800_53_SI.4,
+2020 Mar 25 04:04:41 haran-ids-lab->/var/log/secure
+Rule: 5702 (level 5) -> 'sshd: Reverse lookup error (bad ISP or attack).'
+Src IP: 45.95.168.243
+Mar 25 04:04:39 haran-ids-lab sshd[13989]: reverse mapping checking getaddrinfo for remain-user.penmeta.org [45.95.168.243] failed - POSSIBLE BREAK-IN ATTEMPT!
+
+** Alert 1585109081.62782: - syslog,sshd,invalid_login,authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,pci_dss_10.6.1,gpg13_7.1,gdpr_IV_35.7.d,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AU.6,
+2020 Mar 25 04:04:41 haran-ids-lab->/var/log/secure
+Rule: 5710 (level 5) -> 'sshd: Attempt to login using a non-existent user'
+Src IP: 45.95.168.243
+Src Port: 43705
+Mar 25 04:04:39 haran-ids-lab sshd[13989]: Invalid user elasticsearch from 45.95.168.243 port 43705
+
+** Alert 1585109085.63277: - syslog,sshd,pci_dss_11.4,gpg13_4.12,gdpr_IV_35.7.d,nist_800_53_SI.4,
+2020 Mar 25 04:04:45 haran-ids-lab->/var/log/secure
+Rule: 5702 (level 5) -> 'sshd: Reverse lookup error (bad ISP or attack).'
+Src IP: 45.95.168.243
+Mar 25 04:04:45 haran-ids-lab sshd[14014]: reverse mapping checking getaddrinfo for remain-user.penmeta.org [45.95.168.243] failed - POSSIBLE BREAK-IN ATTEMPT!
+
+** Alert 1585109085.63684: - syslog,sshd,invalid_login,authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,pci_dss_10.6.1,gpg13_7.1,gdpr_IV_35.7.d,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AU.6,
+2020 Mar 25 04:04:45 haran-ids-lab->/var/log/secure
+Rule: 5710 (level 5) -> 'sshd: Attempt to login using a non-existent user'
+Src IP: 45.95.168.243
+Src Port: 51273
+Mar 25 04:04:45 haran-ids-lab sshd[14014]: Invalid user demo from 45.95.168.243 port 51273
+
+** Alert 1585109091.64170: - syslog,sshd,pci_dss_11.4,gpg13_4.12,gdpr_IV_35.7.d,nist_800_53_SI.4,
+2020 Mar 25 04:04:51 haran-ids-lab->/var/log/secure
+Rule: 5702 (level 5) -> 'sshd: Reverse lookup error (bad ISP or attack).'
+Src IP: 45.95.168.243
+Mar 25 04:04:50 haran-ids-lab sshd[14036]: reverse mapping checking getaddrinfo for remain-user.penmeta.org [45.95.168.243] failed - POSSIBLE BREAK-IN ATTEMPT!
+
+** Alert 1585109091.64577: - syslog,sshd,invalid_login,authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,pci_dss_10.6.1,gpg13_7.1,gdpr_IV_35.7.d,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AU.6,
+2020 Mar 25 04:04:51 haran-ids-lab->/var/log/secure
+Rule: 5710 (level 5) -> 'sshd: Attempt to login using a non-existent user'
+Src IP: 45.95.168.243
+Src Port: 58839
+Mar 25 04:04:50 haran-ids-lab sshd[14036]: Invalid user spark from 45.95.168.243 port 58839
+
+** Alert 1585109097.65064: - syslog,sshd,pci_dss_11.4,gpg13_4.12,gdpr_IV_35.7.d,nist_800_53_SI.4,
+2020 Mar 25 04:04:57 haran-ids-lab->/var/log/secure
+Rule: 5702 (level 5) -> 'sshd: Reverse lookup error (bad ISP or attack).'
+Src IP: 45.95.168.243
+Mar 25 04:04:55 haran-ids-lab sshd[14057]: reverse mapping checking getaddrinfo for remain-user.penmeta.org [45.95.168.243] failed - POSSIBLE BREAK-IN ATTEMPT!
+
+** Alert 1585109097.65471: - syslog,sshd,invalid_login,authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,pci_dss_10.6.1,gpg13_7.1,gdpr_IV_35.7.d,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AU.6,
+2020 Mar 25 04:04:57 haran-ids-lab->/var/log/secure
+Rule: 5710 (level 5) -> 'sshd: Attempt to login using a non-existent user'
+Src IP: 45.95.168.243
+Src Port: 38185
+Mar 25 04:04:55 haran-ids-lab sshd[14057]: Invalid user db from 45.95.168.243 port 38185
+
+** Alert 1585109101.65955: - syslog,sshd,pci_dss_11.4,gpg13_4.12,gdpr_IV_35.7.d,nist_800_53_SI.4,
+2020 Mar 25 04:05:01 haran-ids-lab->/var/log/secure
+Rule: 5702 (level 5) -> 'sshd: Reverse lookup error (bad ISP or attack).'
+Src IP: 45.95.168.243
+Mar 25 04:05:00 haran-ids-lab sshd[14078]: reverse mapping checking getaddrinfo for remain-user.penmeta.org [45.95.168.243] failed - POSSIBLE BREAK-IN ATTEMPT!
+
+** Alert 1585109101.66362: - syslog,sshd,invalid_login,authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,pci_dss_10.6.1,gpg13_7.1,gdpr_IV_35.7.d,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AU.6,
+2020 Mar 25 04:05:01 haran-ids-lab->/var/log/secure
+Rule: 5710 (level 5) -> 'sshd: Attempt to login using a non-existent user'
+Src IP: 45.95.168.243
+Src Port: 45740
+Mar 25 04:05:00 haran-ids-lab sshd[14078]: Invalid user server from 45.95.168.243 port 45740
+
+** Alert 1585109167.66850: - syslog,sshd,pci_dss_11.4,gpg13_4.12,gdpr_IV_35.7.d,nist_800_53_SI.4,
+2020 Mar 25 04:06:07 haran-ids-lab->/var/log/secure
+Rule: 5703 (level 10) -> 'sshd: Possible breakin attempt (high number of reverse lookup errors).'
+Src IP: 45.95.168.243
+Mar 25 04:06:06 haran-ids-lab sshd[14440]: reverse mapping checking getaddrinfo for remain-user.penmeta.org [45.95.168.243] failed - POSSIBLE BREAK-IN ATTEMPT!
+Mar 25 04:05:00 haran-ids-lab sshd[14078]: reverse mapping checking getaddrinfo for remain-user.penmeta.org [45.95.168.243] failed - POSSIBLE BREAK-IN ATTEMPT!
+Mar 25 04:04:55 haran-ids-lab sshd[14057]: reverse mapping checking getaddrinfo for remain-user.penmeta.org [45.95.168.243] failed - POSSIBLE BREAK-IN ATTEMPT!
+Mar 25 04:04:50 haran-ids-lab sshd[14036]: reverse mapping checking getaddrinfo for remain-user.penmeta.org [45.95.168.243] failed - POSSIBLE BREAK-IN ATTEMPT!
+Mar 25 04:04:45 haran-ids-lab sshd[14014]: reverse mapping checking getaddrinfo for remain-user.penmeta.org [45.95.168.243] failed - POSSIBLE BREAK-IN ATTEMPT!
+Mar 25 04:04:39 haran-ids-lab sshd[13989]: reverse mapping checking getaddrinfo for remain-user.penmeta.org [45.95.168.243] failed - POSSIBLE BREAK-IN ATTEMPT!
+
+** Alert 1585109167.68081: - syslog,sshd,invalid_login,authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,pci_dss_10.6.1,gpg13_7.1,gdpr_IV_35.7.d,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AU.6,
+2020 Mar 25 04:06:07 haran-ids-lab->/var/log/secure
+Rule: 5710 (level 5) -> 'sshd: Attempt to login using a non-existent user'
+Src IP: 45.95.168.243
+Src Port: 57374
+Mar 25 04:06:06 haran-ids-lab sshd[14440]: Invalid user user01 from 45.95.168.243 port 57374
+
+** Alert 1585109257.68569: - syslog,sshd,invalid_login,authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,pci_dss_10.6.1,gpg13_7.1,gdpr_IV_35.7.d,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AU.6,
+2020 Mar 25 04:07:37 haran-ids-lab->/var/log/secure
+Rule: 5710 (level 5) -> 'sshd: Attempt to login using a non-existent user'
+Src IP: 5.135.190.67
+Src Port: 55508
+Mar 25 04:07:36 haran-ids-lab sshd[14858]: Invalid user support from 5.135.190.67 port 55508
+
+** Alert 1585109383.69056: - syslog,sshd,invalid_login,authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,pci_dss_10.6.1,gpg13_7.1,gdpr_IV_35.7.d,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AU.6,
+2020 Mar 25 04:09:43 haran-ids-lab->/var/log/secure
+Rule: 5710 (level 5) -> 'sshd: Attempt to login using a non-existent user'
+Src IP: 5.135.190.67
+Src Port: 41278
+Mar 25 04:09:41 haran-ids-lab sshd[15372]: Invalid user oracle from 5.135.190.67 port 41278
+
+** Alert 1585109937.69542: - syslog,sshd,invalid_login,authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,pci_dss_10.6.1,gpg13_7.1,gdpr_IV_35.7.d,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AU.6,
+2020 Mar 25 04:18:57 haran-ids-lab->/var/log/secure
+Rule: 5710 (level 5) -> 'sshd: Attempt to login using a non-existent user'
+Src IP: 98.213.58.68
+Src Port: 53570
+Mar 25 04:18:56 haran-ids-lab sshd[17835]: Invalid user fredportela from 98.213.58.68 port 53570
+
+** Alert 1585110111.70033: - syslog,sshd,invalid_login,authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,pci_dss_10.6.1,gpg13_7.1,gdpr_IV_35.7.d,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AU.6,
+2020 Mar 25 04:21:51 haran-ids-lab->/var/log/secure
+Rule: 5710 (level 5) -> 'sshd: Attempt to login using a non-existent user'
+Src IP: 45.14.150.103
+Src Port: 57266
+Mar 25 04:21:50 haran-ids-lab sshd[18676]: Invalid user nginx from 45.14.150.103 port 57266
+
+** Alert 1585110283.70520: - syslog,sshd,invalid_login,authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,pci_dss_10.6.1,gpg13_7.1,gdpr_IV_35.7.d,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AU.6,
+2020 Mar 25 04:24:43 haran-ids-lab->/var/log/secure
+Rule: 5710 (level 5) -> 'sshd: Attempt to login using a non-existent user'
+Src IP: 1.9.78.242
+Src Port: 34748
+Mar 25 04:24:42 haran-ids-lab sshd[19405]: Invalid user sp from 1.9.78.242 port 34748
+
+** Alert 1585110540.70998: - syslog,sshd,invalid_login,authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,pci_dss_10.6.1,gpg13_7.1,gdpr_IV_35.7.d,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AU.6,
+2020 Mar 25 04:29:00 haran-ids-lab->/var/log/secure
+Rule: 5710 (level 5) -> 'sshd: Attempt to login using a non-existent user'
+Src IP: 206.189.26.171
+Src Port: 59896
+Mar 25 04:28:58 haran-ids-lab sshd[20552]: Invalid user raju from 206.189.26.171 port 59896
+
+** Alert 1585110648.71486: - syslog,sshd,invalid_login,authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,pci_dss_10.6.1,gpg13_7.1,gdpr_IV_35.7.d,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AU.6,
+2020 Mar 25 04:30:48 haran-ids-lab->/var/log/secure
+Rule: 5710 (level 5) -> 'sshd: Attempt to login using a non-existent user'
+Src IP: 114.220.76.79
+Src Port: 47246
+Mar 25 04:30:46 haran-ids-lab sshd[21106]: Invalid user mi from 114.220.76.79 port 47246
+
+** Alert 1585110710.71970: - syslog,sshd,invalid_login,authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,pci_dss_10.6.1,gpg13_7.1,gdpr_IV_35.7.d,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AU.6,
+2020 Mar 25 04:31:50 haran-ids-lab->/var/log/secure
+Rule: 5710 (level 5) -> 'sshd: Attempt to login using a non-existent user'
+Src IP: 89.36.220.145
+Src Port: 42515
+Mar 25 04:31:49 haran-ids-lab sshd[21357]: Invalid user steven from 89.36.220.145 port 42515
+
+** Alert 1585110710.72458: - syslog,sshd,pci_dss_11.4,gpg13_4.12,gdpr_IV_35.7.d,nist_800_53_SI.4,
+2020 Mar 25 04:31:50 haran-ids-lab->/var/log/secure
+Rule: 5702 (level 5) -> 'sshd: Reverse lookup error (bad ISP or attack).'
+Src IP: 89.36.220.145
+Mar 25 04:31:49 haran-ids-lab sshd[21357]: reverse mapping checking getaddrinfo for pbsincusa.com [89.36.220.145] failed - POSSIBLE BREAK-IN ATTEMPT!
+
+** Alert 1585110886.72855: - syslog,sshd,invalid_login,authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,pci_dss_10.6.1,gpg13_7.1,gdpr_IV_35.7.d,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AU.6,
+2020 Mar 25 04:34:46 haran-ids-lab->/var/log/secure
+Rule: 5710 (level 5) -> 'sshd: Attempt to login using a non-existent user'
+Src IP: 119.28.133.210
+Src Port: 42806
+Mar 25 04:34:45 haran-ids-lab sshd[22074]: Invalid user test from 119.28.133.210 port 42806
+
+** Alert 1585110900.73343: - syslog,sshd,invalid_login,authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,pci_dss_10.6.1,gpg13_7.1,gdpr_IV_35.7.d,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AU.6,
+2020 Mar 25 04:35:00 haran-ids-lab->/var/log/secure
+Rule: 5710 (level 5) -> 'sshd: Attempt to login using a non-existent user'
+Src IP: 49.235.171.183
+Src Port: 42674
+Mar 25 04:34:58 haran-ids-lab sshd[22143]: Invalid user zp from 49.235.171.183 port 42674
+
+** Alert 1585111000.73829: - syslog,sshd,invalid_login,authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,pci_dss_10.6.1,gpg13_7.1,gdpr_IV_35.7.d,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AU.6,
+2020 Mar 25 04:36:40 haran-ids-lab->/var/log/secure
+Rule: 5710 (level 5) -> 'sshd: Attempt to login using a non-existent user'
+Src IP: 119.28.133.210
+Src Port: 56808
+Mar 25 04:36:38 haran-ids-lab sshd[22652]: Invalid user usuario from 119.28.133.210 port 56808
+
+** Alert 1585111188.74320: - syslog,sshd,pci_dss_11.4,gpg13_4.12,gdpr_IV_35.7.d,nist_800_53_SI.4,
+2020 Mar 25 04:39:48 haran-ids-lab->/var/log/secure
+Rule: 5702 (level 5) -> 'sshd: Reverse lookup error (bad ISP or attack).'
+Src IP: 45.63.83.160
+Mar 25 04:39:48 haran-ids-lab sshd[23420]: reverse mapping checking getaddrinfo for 45.63.83.160.vultr.com [45.63.83.160] failed - POSSIBLE BREAK-IN ATTEMPT!
+
+** Alert 1585111222.74724: - syslog,sshd,invalid_login,authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,pci_dss_10.6.1,gpg13_7.1,gdpr_IV_35.7.d,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AU.6,
+2020 Mar 25 04:40:22 haran-ids-lab->/var/log/secure
+Rule: 5710 (level 5) -> 'sshd: Attempt to login using a non-existent user'
+Src IP: 139.59.71.104
+Src Port: 54230
+Mar 25 04:40:21 haran-ids-lab sshd[23676]: Invalid user cacti from 139.59.71.104 port 54230
+
+** Alert 1585111292.75211: - syslog,sshd,pci_dss_11.4,gpg13_4.12,gdpr_IV_35.7.d,nist_800_53_SI.4,
+2020 Mar 25 04:41:32 haran-ids-lab->/var/log/secure
+Rule: 5702 (level 5) -> 'sshd: Reverse lookup error (bad ISP or attack).'
+Src IP: 45.63.83.160
+Mar 25 04:41:32 haran-ids-lab sshd[23959]: reverse mapping checking getaddrinfo for 45.63.83.160.vultr.com [45.63.83.160] failed - POSSIBLE BREAK-IN ATTEMPT!
+
+** Alert 1585111306.75615: - syslog,sshd,invalid_login,authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,pci_dss_10.6.1,gpg13_7.1,gdpr_IV_35.7.d,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AU.6,
+2020 Mar 25 04:41:46 haran-ids-lab->/var/log/secure
+Rule: 5710 (level 5) -> 'sshd: Attempt to login using a non-existent user'
+Src IP: 101.231.146.34
+Src Port: 53522
+Mar 25 04:41:46 haran-ids-lab sshd[24027]: Invalid user clinton from 101.231.146.34 port 53522
+
+** Alert 1585111340.76106: - syslog,sshd,invalid_login,authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,pci_dss_10.6.1,gpg13_7.1,gdpr_IV_35.7.d,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AU.6,
+2020 Mar 25 04:42:20 haran-ids-lab->/var/log/secure
+Rule: 5710 (level 5) -> 'sshd: Attempt to login using a non-existent user'
+Src IP: 139.59.71.104
+Src Port: 40146
+Mar 25 04:42:20 haran-ids-lab sshd[24160]: Invalid user oracle from 139.59.71.104 port 40146
+
+** Alert 1585111618.76594: - syslog,sshd,invalid_login,authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,pci_dss_10.6.1,gpg13_7.1,gdpr_IV_35.7.d,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AU.6,
+2020 Mar 25 04:46:58 haran-ids-lab->/var/log/secure
+Rule: 5710 (level 5) -> 'sshd: Attempt to login using a non-existent user'
+Src IP: 198.50.177.42
+Src Port: 52368
+Mar 25 04:46:57 haran-ids-lab sshd[25385]: Invalid user joe from 198.50.177.42 port 52368
+
+** Alert 1585111706.77079: - syslog,sshd,invalid_login,authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,pci_dss_10.6.1,gpg13_7.1,gdpr_IV_35.7.d,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AU.6,
+2020 Mar 25 04:48:26 haran-ids-lab->/var/log/secure
+Rule: 5710 (level 5) -> 'sshd: Attempt to login using a non-existent user'
+Src IP: 117.22.228.62
+Src Port: 17922
+Mar 25 04:48:25 haran-ids-lab sshd[25713]: Invalid user admin from 117.22.228.62 port 17922
+
+** Alert 1585111786.77566: - syslog,sshd,invalid_login,authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,pci_dss_10.6.1,gpg13_7.1,gdpr_IV_35.7.d,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AU.6,
+2020 Mar 25 04:49:46 haran-ids-lab->/var/log/secure
+Rule: 5710 (level 5) -> 'sshd: Attempt to login using a non-existent user'
+Src IP: 92.63.194.104
+Src Port: 40837
+Mar 25 04:49:46 haran-ids-lab sshd[26081]: Invalid user admin from 92.63.194.104 port 40837
+
+** Alert 1585111790.78053: - syslog,sshd,invalid_login,authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,pci_dss_10.6.1,gpg13_7.1,gdpr_IV_35.7.d,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AU.6,
+2020 Mar 25 04:49:50 haran-ids-lab->/var/log/secure
+Rule: 5710 (level 5) -> 'sshd: Attempt to login using a non-existent user'
+Src IP: 92.63.194.105
+Src Port: 40047
+Mar 25 04:49:49 haran-ids-lab sshd[26094]: Invalid user admin from 92.63.194.105 port 40047
+
+** Alert 1585111792.78540: - syslog,sshd,invalid_login,authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,pci_dss_10.6.1,gpg13_7.1,gdpr_IV_35.7.d,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AU.6,
+2020 Mar 25 04:49:52 haran-ids-lab->/var/log/secure
+Rule: 5710 (level 5) -> 'sshd: Attempt to login using a non-existent user'
+Src IP: 92.63.194.106
+Src Port: 36857
+Mar 25 04:49:51 haran-ids-lab sshd[26107]: Invalid user user from 92.63.194.106 port 36857
+
+** Alert 1585111794.79026: - syslog,sshd,invalid_login,authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,pci_dss_10.6.1,gpg13_7.1,gdpr_IV_35.7.d,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AU.6,
+2020 Mar 25 04:49:54 haran-ids-lab->/var/log/secure
+Rule: 5710 (level 5) -> 'sshd: Attempt to login using a non-existent user'
+Src IP: 92.63.194.107
+Src Port: 44851
+Mar 25 04:49:54 haran-ids-lab sshd[26117]: Invalid user admin from 92.63.194.107 port 44851
+
+** Alert 1585111802.79513: - syslog,sshd,invalid_login,authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,pci_dss_10.6.1,gpg13_7.1,gdpr_IV_35.7.d,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AU.6,
+2020 Mar 25 04:50:02 haran-ids-lab->/var/log/secure
+Rule: 5710 (level 5) -> 'sshd: Attempt to login using a non-existent user'
+Src IP: 92.63.194.104
+Src Port: 39213
+Mar 25 04:50:02 haran-ids-lab sshd[26153]: Invalid user test from 92.63.194.104 port 39213
+
+** Alert 1585111808.79999: - syslog,sshd,invalid_login,authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,pci_dss_10.6.1,gpg13_7.1,gdpr_IV_35.7.d,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AU.6,
+2020 Mar 25 04:50:08 haran-ids-lab->/var/log/secure
+Rule: 5710 (level 5) -> 'sshd: Attempt to login using a non-existent user'
+Src IP: 92.63.194.106
+Src Port: 36277
+Mar 25 04:50:07 haran-ids-lab sshd[26279]: Invalid user guest from 92.63.194.106 port 36277
+
+** Alert 1585111810.80486: - syslog,sshd,invalid_login,authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,pci_dss_10.6.1,gpg13_7.1,gdpr_IV_35.7.d,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AU.6,
+2020 Mar 25 04:50:10 haran-ids-lab->/var/log/secure
+Rule: 5710 (level 5) -> 'sshd: Attempt to login using a non-existent user'
+Src IP: 92.63.194.107
+Src Port: 37467
+Mar 25 04:50:10 haran-ids-lab sshd[26292]: Invalid user ubnt from 92.63.194.107 port 37467
+
+** Alert 1585111812.80972: - syslog,sshd,invalid_login,authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,pci_dss_10.6.1,gpg13_7.1,gdpr_IV_35.7.d,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AU.6,
+2020 Mar 25 04:50:12 haran-ids-lab->/var/log/secure
+Rule: 5710 (level 5) -> 'sshd: Attempt to login using a non-existent user'
+Src IP: 92.63.194.108
+Src Port: 43829
+Mar 25 04:50:12 haran-ids-lab sshd[26302]: Invalid user guest from 92.63.194.108 port 43829
+
+** Alert 1585111816.81459: - syslog,sshd,invalid_login,authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,pci_dss_10.6.1,gpg13_7.1,gdpr_IV_35.7.d,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AU.6,
+2020 Mar 25 04:50:16 haran-ids-lab->/var/log/secure
+Rule: 5710 (level 5) -> 'sshd: Attempt to login using a non-existent user'
+Src IP: 92.63.194.7
+Src Port: 53754
+Mar 25 04:50:15 haran-ids-lab sshd[26316]: Invalid user support from 92.63.194.7 port 53754
+
+** Alert 1585113926.81944: - syslog,sshd,invalid_login,authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,pci_dss_10.6.1,gpg13_7.1,gdpr_IV_35.7.d,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AU.6,
+2020 Mar 25 05:25:26 haran-ids-lab->/var/log/secure
+Rule: 5710 (level 5) -> 'sshd: Attempt to login using a non-existent user'
+Src IP: 125.227.130.2
+Src Port: 44116
+Mar 25 05:25:26 haran-ids-lab sshd[3901]: Invalid user cacti from 125.227.130.2 port 44116
+
+** Alert 1585114038.82430: - syslog,sshd,invalid_login,authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,pci_dss_10.6.1,gpg13_7.1,gdpr_IV_35.7.d,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AU.6,
+2020 Mar 25 05:27:18 haran-ids-lab->/var/log/secure
+Rule: 5710 (level 5) -> 'sshd: Attempt to login using a non-existent user'
+Src IP: 125.227.130.2
+Src Port: 8155
+Mar 25 05:27:17 haran-ids-lab sshd[4349]: Invalid user test from 125.227.130.2 port 8155
+
+** Alert 1585115116.82913: - syslog,sshd,invalid_login,authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,pci_dss_10.6.1,gpg13_7.1,gdpr_IV_35.7.d,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AU.6,
+2020 Mar 25 05:45:16 haran-ids-lab->/var/log/secure
+Rule: 5710 (level 5) -> 'sshd: Attempt to login using a non-existent user'
+Src IP: 195.110.34.149
+Src Port: 42160
+Mar 25 05:45:16 haran-ids-lab sshd[9147]: Invalid user paris from 195.110.34.149 port 42160
+
+** Alert 1585115919.83401: - syslog,sshd,invalid_login,authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,pci_dss_10.6.1,gpg13_7.1,gdpr_IV_35.7.d,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AU.6,
+2020 Mar 25 05:58:39 haran-ids-lab->/var/log/secure
+Rule: 5710 (level 5) -> 'sshd: Attempt to login using a non-existent user'
+Src IP: 188.166.229.205
+Src Port: 25175
+Mar 25 05:58:38 haran-ids-lab sshd[12529]: Invalid user oracle from 188.166.229.205 port 25175
+
+** Alert 1585116287.83893: - syslog,sshd,pci_dss_11.4,gpg13_4.12,gdpr_IV_35.7.d,nist_800_53_SI.4,
+2020 Mar 25 06:04:47 haran-ids-lab->/var/log/secure
+Rule: 5702 (level 5) -> 'sshd: Reverse lookup error (bad ISP or attack).'
+Src IP: 202.122.23.70
+Mar 25 06:04:46 haran-ids-lab sshd[14744]: reverse mapping checking getaddrinfo for winfoware70.e-karnet.net [202.122.23.70] failed - POSSIBLE BREAK-IN ATTEMPT!
+
+** Alert 1585116287.84301: - syslog,sshd,invalid_login,authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,pci_dss_10.6.1,gpg13_7.1,gdpr_IV_35.7.d,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AU.6,
+2020 Mar 25 06:04:47 haran-ids-lab->/var/log/secure
+Rule: 5710 (level 5) -> 'sshd: Attempt to login using a non-existent user'
+Src IP: 202.122.23.70
+Src Port: 36543
+Mar 25 06:04:46 haran-ids-lab sshd[14744]: Invalid user campus from 202.122.23.70 port 36543
+
+** Alert 1585116417.84789: - syslog,sshd,recon,pci_dss_11.4,gpg13_4.12,gdpr_IV_35.7.d,nist_800_53_SI.4,
+2020 Mar 25 06:06:57 haran-ids-lab->/var/log/secure
+Rule: 5706 (level 6) -> 'sshd: insecure connection attempt (scan).'
+Src IP: 129.226.163.23
+Src Port: 36660
+Mar 25 06:06:56 haran-ids-lab sshd[15375]: Did not receive identification string from 129.226.163.23 port 36660
+
+** Alert 1585116509.85165: - syslog,sshd,invalid_login,authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,pci_dss_10.6.1,gpg13_7.1,gdpr_IV_35.7.d,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AU.6,
+2020 Mar 25 06:08:29 haran-ids-lab->/var/log/secure
+Rule: 5710 (level 5) -> 'sshd: Attempt to login using a non-existent user'
+Src IP: 129.226.163.23
+Src Port: 44682
+Mar 25 06:08:28 haran-ids-lab sshd[15758]: Invalid user hadoop from 129.226.163.23 port 44682
+
+** Alert 1585116525.85655: - syslog,sshd,invalid_login,authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,pci_dss_10.6.1,gpg13_7.1,gdpr_IV_35.7.d,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AU.6,
+2020 Mar 25 06:08:45 haran-ids-lab->/var/log/secure
+Rule: 5710 (level 5) -> 'sshd: Attempt to login using a non-existent user'
+Src IP: 129.226.163.23
+Src Port: 34212
+Mar 25 06:08:45 haran-ids-lab sshd[15825]: Invalid user postgres from 129.226.163.23 port 34212
+
+** Alert 1585116543.86147: - syslog,sshd,invalid_login,authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,pci_dss_10.6.1,gpg13_7.1,gdpr_IV_35.7.d,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AU.6,
+2020 Mar 25 06:09:03 haran-ids-lab->/var/log/secure
+Rule: 5710 (level 5) -> 'sshd: Attempt to login using a non-existent user'
+Src IP: 129.226.163.23
+Src Port: 51990
+Mar 25 06:09:02 haran-ids-lab sshd[15900]: Invalid user nginx from 129.226.163.23 port 51990
+
+** Alert 1585116595.86636: - syslog,sshd,invalid_login,authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,pci_dss_10.6.1,gpg13_7.1,gdpr_IV_35.7.d,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AU.6,
+2020 Mar 25 06:09:55 haran-ids-lab->/var/log/secure
+Rule: 5710 (level 5) -> 'sshd: Attempt to login using a non-existent user'
+Src IP: 129.226.163.23
+Src Port: 49026
+Mar 25 06:09:55 haran-ids-lab sshd[16130]: Invalid user ts3 from 129.226.163.23 port 49026
+
+** Alert 1585116613.87123: - syslog,sshd,invalid_login,authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,pci_dss_10.6.1,gpg13_7.1,gdpr_IV_35.7.d,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AU.6,
+2020 Mar 25 06:10:13 haran-ids-lab->/var/log/secure
+Rule: 5710 (level 5) -> 'sshd: Attempt to login using a non-existent user'
+Src IP: 129.226.163.23
+Src Port: 38464
+Mar 25 06:10:13 haran-ids-lab sshd[16302]: Invalid user test from 129.226.163.23 port 38464
+
+** Alert 1585116631.87611: - syslog,sshd,invalid_login,authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,pci_dss_10.6.1,gpg13_7.1,gdpr_IV_35.7.d,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AU.6,
+2020 Mar 25 06:10:31 haran-ids-lab->/var/log/secure
+Rule: 5710 (level 5) -> 'sshd: Attempt to login using a non-existent user'
+Src IP: 129.226.163.23
+Src Port: 56372
+Mar 25 06:10:31 haran-ids-lab sshd[16387]: Invalid user centos from 129.226.163.23 port 56372
+
+** Alert 1585116649.88101: - syslog,sshd,invalid_login,authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,pci_dss_10.6.1,gpg13_7.1,gdpr_IV_35.7.d,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AU.6,
+2020 Mar 25 06:10:49 haran-ids-lab->/var/log/secure
+Rule: 5710 (level 5) -> 'sshd: Attempt to login using a non-existent user'
+Src IP: 129.226.163.23
+Src Port: 46030
+Mar 25 06:10:49 haran-ids-lab sshd[16457]: Invalid user ubuntu from 129.226.163.23 port 46030
+
+** Alert 1585116667.88591: - syslog,sshd,invalid_login,authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,pci_dss_10.6.1,gpg13_7.1,gdpr_IV_35.7.d,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AU.6,
+2020 Mar 25 06:11:07 haran-ids-lab->/var/log/secure
+Rule: 5710 (level 5) -> 'sshd: Attempt to login using a non-existent user'
+Src IP: 129.226.163.23
+Src Port: 35554
+Mar 25 06:11:07 haran-ids-lab sshd[16527]: Invalid user mysql from 129.226.163.23 port 35554
+
+** Alert 1585116713.89080: - syslog,sshd,invalid_login,authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,pci_dss_10.6.1,gpg13_7.1,gdpr_IV_35.7.d,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AU.6,
+2020 Mar 25 06:11:53 haran-ids-lab->/var/log/secure
+Rule: 5710 (level 5) -> 'sshd: Attempt to login using a non-existent user'
+Src IP: 122.116.75.124
+Src Port: 38044
+Mar 25 06:11:52 haran-ids-lab sshd[16707]: Invalid user ts3 from 122.116.75.124 port 38044
+
+** Alert 1585116765.89567: - syslog,sshd,invalid_login,authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,pci_dss_10.6.1,gpg13_7.1,gdpr_IV_35.7.d,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AU.6,
+2020 Mar 25 06:12:45 haran-ids-lab->/var/log/secure
+Rule: 5710 (level 5) -> 'sshd: Attempt to login using a non-existent user'
+Src IP: 134.209.228.253
+Src Port: 58706
+Mar 25 06:12:44 haran-ids-lab sshd[16920]: Invalid user redmine from 134.209.228.253 port 58706
+
+** Alert 1585116819.90060: - syslog,sshd,invalid_login,authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,pci_dss_10.6.1,gpg13_7.1,gdpr_IV_35.7.d,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AU.6,
+2020 Mar 25 06:13:39 haran-ids-lab->/var/log/secure
+Rule: 5710 (level 5) -> 'sshd: Attempt to login using a non-existent user'
+Src IP: 119.57.162.18
+Src Port: 60125
+Mar 25 06:13:38 haran-ids-lab sshd[17132]: Invalid user admin from 119.57.162.18 port 60125
+
+** Alert 1585117307.90547: - syslog,sshd,invalid_login,authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,pci_dss_10.6.1,gpg13_7.1,gdpr_IV_35.7.d,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AU.6,
+2020 Mar 25 06:21:47 haran-ids-lab->/var/log/secure
+Rule: 5710 (level 5) -> 'sshd: Attempt to login using a non-existent user'
+Src IP: 188.166.229.205
+Src Port: 41085
+Mar 25 06:21:47 haran-ids-lab sshd[19364]: Invalid user oracle from 188.166.229.205 port 41085
+
+** Alert 1585117348.91039: - syslog,sshd,invalid_login,authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,pci_dss_10.6.1,gpg13_7.1,gdpr_IV_35.7.d,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AU.6,
+2020 Mar 25 06:22:28 haran-ids-lab->/var/log/secure
+Rule: 5710 (level 5) -> 'sshd: Attempt to login using a non-existent user'
+Src IP: 82.200.65.218
+Src Port: 38954
+Mar 25 06:22:28 haran-ids-lab sshd[19590]: Invalid user user from 82.200.65.218 port 38954
+
+** Alert 1585117400.91525: - syslog,sshd,invalid_login,authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,pci_dss_10.6.1,gpg13_7.1,gdpr_IV_35.7.d,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AU.6,
+2020 Mar 25 06:23:20 haran-ids-lab->/var/log/secure
+Rule: 5710 (level 5) -> 'sshd: Attempt to login using a non-existent user'
+Src IP: 36.92.69.26
+Src Port: 36564
+Mar 25 06:23:18 haran-ids-lab sshd[19804]: Invalid user ts from 36.92.69.26 port 36564
+
+** Alert 1585117424.92005: - syslog,sshd,invalid_login,authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,pci_dss_10.6.1,gpg13_7.1,gdpr_IV_35.7.d,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AU.6,
+2020 Mar 25 06:23:44 haran-ids-lab->/var/log/secure
+Rule: 5710 (level 5) -> 'sshd: Attempt to login using a non-existent user'
+Src IP: 180.76.247.6
+Src Port: 42226
+Mar 25 06:23:42 haran-ids-lab sshd[19887]: Invalid user admin from 180.76.247.6 port 42226
+
+** Alert 1585117624.92490: - syslog,sshd,invalid_login,authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,pci_dss_10.6.1,gpg13_7.1,gdpr_IV_35.7.d,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AU.6,
+2020 Mar 25 06:27:04 haran-ids-lab->/var/log/secure
+Rule: 5710 (level 5) -> 'sshd: Attempt to login using a non-existent user'
+Src IP: 180.76.247.6
+Src Port: 56566
+Mar 25 06:27:03 haran-ids-lab sshd[20820]: Invalid user ubuntu from 180.76.247.6 port 56566
+
+** Alert 1585117988.92976: - syslog,sshd,invalid_login,authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,pci_dss_10.6.1,gpg13_7.1,gdpr_IV_35.7.d,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AU.6,
+2020 Mar 25 06:33:08 haran-ids-lab->/var/log/secure
+Rule: 5710 (level 5) -> 'sshd: Attempt to login using a non-existent user'
+Src IP: 139.199.183.185
+Src Port: 40204
+Mar 25 06:33:07 haran-ids-lab sshd[22423]: Invalid user wp from 139.199.183.185 port 40204
+
+** Alert 1585118572.93464: - syslog,sshd,invalid_login,authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,pci_dss_10.6.1,gpg13_7.1,gdpr_IV_35.7.d,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AU.6,
+2020 Mar 25 06:42:52 haran-ids-lab->/var/log/secure
+Rule: 5710 (level 5) -> 'sshd: Attempt to login using a non-existent user'
+Src IP: 64.22.104.227
+Src Port: 13833
+Mar 25 06:42:52 haran-ids-lab sshd[24982]: Invalid user super from 64.22.104.227 port 13833
+
+** Alert 1585118702.93951: - syslog,sshd,invalid_login,authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,pci_dss_10.6.1,gpg13_7.1,gdpr_IV_35.7.d,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AU.6,
+2020 Mar 25 06:45:02 haran-ids-lab->/var/log/secure
+Rule: 5710 (level 5) -> 'sshd: Attempt to login using a non-existent user'
+Src IP: 51.75.30.214
+Src Port: 44372
+Mar 25 06:45:01 haran-ids-lab sshd[25538]: Invalid user www from 51.75.30.214 port 44372
+
+** Alert 1585118778.94434: - syslog,sshd,invalid_login,authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,pci_dss_10.6.1,gpg13_7.1,gdpr_IV_35.7.d,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AU.6,
+2020 Mar 25 06:46:18 haran-ids-lab->/var/log/secure
+Rule: 5710 (level 5) -> 'sshd: Attempt to login using a non-existent user'
+Src IP: 106.13.175.126
+Src Port: 55328
+Mar 25 06:46:17 haran-ids-lab sshd[25962]: Invalid user kadi from 106.13.175.126 port 55328
+
+** Alert 1585118850.94922: - syslog,sshd,invalid_login,authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,pci_dss_10.6.1,gpg13_7.1,gdpr_IV_35.7.d,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AU.6,
+2020 Mar 25 06:47:30 haran-ids-lab->/var/log/secure
+Rule: 5710 (level 5) -> 'sshd: Attempt to login using a non-existent user'
+Src IP: 106.12.156.236
+Src Port: 60156
+Mar 25 06:47:29 haran-ids-lab sshd[26252]: Invalid user sinus from 106.12.156.236 port 60156
+
+** Alert 1585119032.95411: - syslog,sshd,invalid_login,authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,pci_dss_10.6.1,gpg13_7.1,gdpr_IV_35.7.d,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AU.6,
+2020 Mar 25 06:50:32 haran-ids-lab->/var/log/secure
+Rule: 5710 (level 5) -> 'sshd: Attempt to login using a non-existent user'
+Src IP: 186.67.129.34
+Src Port: 34384
+Mar 25 06:50:32 haran-ids-lab sshd[27093]: Invalid user versuch from 186.67.129.34 port 34384
+
+** Alert 1585119046.95900: - syslog,sshd,invalid_login,authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,pci_dss_10.6.1,gpg13_7.1,gdpr_IV_35.7.d,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AU.6,
+2020 Mar 25 06:50:46 haran-ids-lab->/var/log/secure
+Rule: 5710 (level 5) -> 'sshd: Attempt to login using a non-existent user'
+Src IP: 58.8.173.247
+Src Port: 49636
+Mar 25 06:50:45 haran-ids-lab sshd[27153]: Invalid user test from 58.8.173.247 port 49636
+
+** Alert 1585119154.96384: - syslog,sshd,invalid_login,authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,pci_dss_10.6.1,gpg13_7.1,gdpr_IV_35.7.d,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AU.6,
+2020 Mar 25 06:52:34 haran-ids-lab->/var/log/secure
+Rule: 5710 (level 5) -> 'sshd: Attempt to login using a non-existent user'
+Src IP: 104.131.224.81
+Src Port: 50120
+Mar 25 06:52:34 haran-ids-lab sshd[27619]: Invalid user tt from 104.131.224.81 port 50120
+

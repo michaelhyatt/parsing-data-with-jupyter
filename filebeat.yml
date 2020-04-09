@@ -1,0 +1,23 @@
+
+filebeat.config.modules:
+  path: ${path.config}/modules.d/*.yml
+  reload.enabled: false
+
+setup.template.settings:
+  index.number_of_shards: 1
+
+filebeat.inputs:
+  - type: stdin
+    multiline.pattern: '^\*\* '
+    multiline.negate: true
+    multiline.match: after
+
+# output.console:
+#   pretty: true
+
+cloud.id: value 
+cloud.auth: user:pwd
+
+processors:
+ - include_fields:
+    fields: ["message"]
